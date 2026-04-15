@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>QuestPDF</id>
+    <version>2025.1.0</version>
+    <authors>MarcinZiabek</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="file">PackageLicense.md</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Logo.png</icon>
+    <readme>PackageReadme.md</readme>
+    <projectUrl>https://www.questpdf.com/</projectUrl>
+    <iconUrl>https://www.questpdf.com/images/package-logo.png</iconUrl>
+    <description>QuestPDF is an open-source, modern and battle-tested library that can help you with generating PDF documents by offering friendly, discoverable and predictable C# fluent API. Easily generate PDF reports, invoices, exports, etc.</description>
+    <releaseNotes>Version 2025.1.0
+- Implemented a Lazy element that delays content creation to reduce memory usage and enhance garbage collection efficiency in large documents.
+- Optimization: releasing native objects as early as possible to reduce peak memory usage,
+- Various performance and memory optimizations,
+- Increased maximum level of parallelism from 2 to 4.</releaseNotes>
+    <copyright>Marcin Ziąbek, QuestPDF contributors</copyright>
+    <tags>PDF C# dotnet csharp .NET PDF library PDF document PDF generation PDF creation PDF report PDF invoice PDF export windows linux mac azure aws open-source open source free adobe file SVG HTML XPS</tags>
+    <repository type="git" url="https://github.com/QuestPDF/library.git" commit="e19658b2da461deea658ba4c21c86b27cab4a022" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+      <group targetFramework="net8.0" />
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>

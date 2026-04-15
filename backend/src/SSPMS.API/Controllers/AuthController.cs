@@ -47,7 +47,8 @@ public class AuthController : BaseController
     [HttpPost("resend-verification"), AllowAnonymous]
     public async Task<IActionResult> ResendVerification([FromBody] ForgotPasswordRequest request)
     {
-        await _auth.ResendEmailVerificationAsync(request.Email);
+        var result = await _auth.ResendEmailVerificationAsync(request.Email);
+        if (!result.Succeeded) return StatusCode(503, new { message = result.Error });
         return Ok(new { message = "Verification code sent if the email is registered and unverified." });
     }
 

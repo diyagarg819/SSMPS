@@ -1,4 +1,6 @@
+using System.IO;
 using MailKit.Net.Smtp;
+
 using Microsoft.Extensions.Configuration;
 using MimeKit;
 using SSPMS.Application.Interfaces;
@@ -14,7 +16,8 @@ public class EmailService : IEmailService
     public async Task SendAsync(string to, string subject, string htmlBody)
     {
         var host     = _config["Email:SmtpHost"] ?? "smtp.gmail.com";
-        var port     = int.Parse(_config["Email:SmtpPort"] ?? "587");
+        var portStr  = _config["Email:SmtpPort"] ?? "465";
+        var port     = int.Parse(portStr);
         var username = _config["Email:SmtpUsername"] ?? "";
         var password = (_config["Email:Password"] ?? "").Replace(" ", "");
         var from     = _config["Email:From"] ?? username;
@@ -27,49 +30,41 @@ public class EmailService : IEmailService
         message.Body = new TextPart("html") { Text = WrapTemplate(subject, htmlBody) };
 
         using var client = new SmtpClient();
-        // Keep total SMTP budget well under Render's / typical reverse-proxy 30 s request
-        // timeout.  Cloud providers (Render, Railway, Fly…) often silently drop TCP
-        // connections to port 587 / 465, so each attempt must fail quickly rather than
-        // stalling the HTTP response until the proxy kills it with a 503.
-        using var mainCts = new System.Threading.CancellationTokenSource(TimeSpan.FromSeconds(12));
-
-        // Try configured port first, then fall back. Each connection attempt gets its own
-        // short timeout so a silently-dropped port (e.g. 465 on cloud hosts) can't starve
-        // the fallback attempt.
-        var portModes = new[]
-        {
-            (port, port == 465 ? MailKit.Security.SecureSocketOptions.SslOnConnect : MailKit.Security.SecureSocketOptions.StartTls),
-            (port == 587 ? 465 : 587, port == 587 ? MailKit.Security.SecureSocketOptions.SslOnConnect : MailKit.Security.SecureSocketOptions.StartTls)
-        };
+        using var mainCts = new System.Threading.CancellationTokenSource(TimeSpan.FromSeconds(20));
 
         Exception? lastEx = null;
-        foreach (var (p, mode) in portModes)
-        {
-            using var connectCts = System.Threading.CancellationTokenSource.CreateLinkedTokenSource(mainCts.Token);
-            connectCts.CancelAfter(TimeSpan.FromSeconds(4));
-            try
-            {
-                if (client.IsConnected) await client.DisconnectAsync(false);
-                await client.ConnectAsync(host, p, mode, connectCts.Token);
-                lastEx = null;
-                break;
-            }
-            catch (Exception ex) { lastEx = ex; }
-        }
-        if (lastEx != null)
-            throw new InvalidOperationException($"SMTP connect failed on all ports. Last error: {lastEx.Message}", lastEx);
-
         try
         {
+            // If port 465 is specified, use implicit SSL immediately. Otherwise use StartTls.
+            var options = (port == 465) ? MailKit.Security.SecureSocketOptions.SslOnConnect : MailKit.Security.SecureSocketOptions.StartTls;
+            
+            await client.ConnectAsync(host, port, options, mainCts.Token);
             await client.AuthenticateAsync(username, password, mainCts.Token);
+            await client.SendAsync(message, mainCts.Token);
+            await client.DisconnectAsync(true);
+            
+            await AppendToAuditLog(to, subject, "SUCCESS");
         }
         catch (Exception ex)
         {
-            throw new InvalidOperationException($"SMTP authentication failed for '{username}'. Ensure the app password is current and 2FA is enabled on the Google account. Error: {ex.Message}", ex);
+            await AppendToAuditLog(to, subject, $"FAILED: {ex.Message}");
+            throw new InvalidOperationException($"Email delivery failed: {ex.Message}", ex);
         }
+    }
 
-        await client.SendAsync(message, mainCts.Token);
-        await client.DisconnectAsync(true);
+    private async Task AppendToAuditLog(string to, string subject, string status)
+    {
+        try
+        {
+            var logPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "logs");
+            if (!Directory.Exists(logPath)) Directory.CreateDirectory(logPath);
+            
+            var filePath = Path.Combine(logPath, "email_audit.log");
+            var entry = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] TO: {to} | SUBJECT: {subject} | STATUS: {status}{Environment.NewLine}";
+            
+            await File.AppendAllTextAsync(filePath, entry);
+        }
+        catch { /* Best effort logging */ }
     }
 
     public Task SendWelcomeEmailAsync(string to, string name, string tempPassword) =>

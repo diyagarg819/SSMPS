@@ -52,8 +52,15 @@ public class AuthService : IAuthService
         _db.Users.Add(user);
         await _db.SaveChangesAsync();
 
-        // Send verification OTP
-        await SendVerificationOtpAsync(user);
+        try
+        {
+            await SendVerificationOtpAsync(user);
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to send verification email during registration for {Email}", user.Email);
+            return ServiceResult<RegisterResponse>.Failure("Registration created the account, but verification email delivery failed. Please use resend verification.");
+        }
         await _audit.LogAsync(user.Id, "Register.Success", ipAddress: ipAddress);
 
         return ServiceResult<RegisterResponse>.Success(
@@ -114,8 +121,16 @@ public class AuthService : IAuthService
     {
         var user = await _db.Users.FirstOrDefaultAsync(u => u.Email == email.ToLower() && u.IsActive && !u.IsEmailVerified);
         if (user == null) return ServiceResult.Success(); // Don't reveal if email exists
-        await SendVerificationOtpAsync(user);
-        return ServiceResult.Success();
+        try
+        {
+            await SendVerificationOtpAsync(user);
+            return ServiceResult.Success();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to resend verification email to {Email}", user.Email);
+            return ServiceResult.Failure("Verification email delivery failed. Please try again.");
+        }
     }
 
     public async Task<ServiceResult<AuthResponse>> GoogleLoginAsync(string idToken, string ipAddress)
@@ -223,6 +238,16 @@ public class AuthService : IAuthService
             ExpiresAt = DateTime.UtcNow.AddMinutes(15)
         });
         await _db.SaveChangesAsync();
+
+        // Always log OTP to console for development visibility
+        _logger.LogWarning("\n" +
+            "========================================\n" +
+            "  PASSWORD RESET OTP\n" +
+            "  User:  {Email}\n" +
+            "  OTP:   {Otp}\n" +
+            "========================================",
+            user.Email, otp);
+
         try { await _email.SendOtpEmailAsync(user.Email, user.Name, otp); }
         catch (Exception ex) { _logger.LogError(ex, "Failed to send password reset OTP to {Email}", user.Email); throw; }
         return ServiceResult.Success();
@@ -330,8 +355,22 @@ public class AuthService : IAuthService
             ExpiresAt = DateTime.UtcNow.AddMinutes(15)
         });
         await _db.SaveChangesAsync();
+
+        // Always log OTP to console for development visibility
+        _logger.LogWarning("\n" +
+            "========================================\n" +
+            "  EMAIL VERIFICATION OTP\n" +
+            "  User:  {Email}\n" +
+            "  OTP:   {Otp}\n" +
+            "========================================",
+            user.Email, otp);
+
         try { await _email.SendEmailVerificationOtpAsync(user.Email, user.Name, otp); }
-        catch (Exception ex) { _logger.LogError(ex, "Failed to send verification OTP to {Email}", user.Email); }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Failed to send verification OTP to {Email}", user.Email);
+            throw;
+        }
         // Email failure is non-fatal — OTP is already saved in DB; user can request a resend.
     }
 

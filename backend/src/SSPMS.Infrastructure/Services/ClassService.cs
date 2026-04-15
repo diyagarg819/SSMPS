@@ -61,13 +61,24 @@ public class ClassService : IClassService
         var @class = await _db.Classes.Include(c => c.Trainer).FirstOrDefaultAsync(c => c.Id == id);
         if (@class == null) return ServiceResult<ClassDto>.Failure("Class not found.");
 
+        // Validate new trainer if changed
+        if (@class.TrainerId != request.TrainerId)
+        {
+            var trainer = await _db.Users.FindAsync(request.TrainerId);
+            if (trainer == null || trainer.Role != UserRole.Trainer)
+                return ServiceResult<ClassDto>.Failure("Invalid trainer selected.");
+        }
+
         @class.Name = request.Name;
         @class.Description = request.Description;
         @class.StartDate = request.StartDate;
         @class.EndDate = request.EndDate;
         @class.SkillTags = request.SkillTags;
         @class.TrainerId = request.TrainerId;
+        
         await _db.SaveChangesAsync();
+        await _db.Entry(@class).Reference(c => c.Trainer).LoadAsync();
+        
         return ServiceResult<ClassDto>.Success(MapDto(@class));
     }
 

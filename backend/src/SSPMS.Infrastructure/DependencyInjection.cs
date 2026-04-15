@@ -12,12 +12,15 @@ public static class DependencyInjection
     public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddDbContext<ApplicationDbContext>(options =>
+        {
             options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"),
                 npgsqlOptions =>
                 {
                     npgsqlOptions.EnableRetryOnFailure(maxRetryCount: 3);
                     npgsqlOptions.CommandTimeout(30);
-                }));
+                    npgsqlOptions.UseQuerySplittingBehavior(QuerySplittingBehavior.SplitQuery);
+                });
+        });
 
         services.AddScoped<IAuthService, AuthService>();
         services.AddScoped<IUserService, UserService>();
@@ -37,7 +40,17 @@ public static class DependencyInjection
         else if (!string.IsNullOrWhiteSpace(configuration["Resend:ApiKey"]))
             services.AddScoped<IEmailService, ResendEmailService>();
         else
-            services.AddScoped<IEmailService, EmailService>();
+        {
+            // Use real SMTP only if a valid password is configured
+            var smtpPassword = (configuration["Email:Password"] ?? "").Trim();
+            var isPlaceholder = string.IsNullOrEmpty(smtpPassword)
+                             || smtpPassword.Contains("YOUR_", StringComparison.OrdinalIgnoreCase)
+                             || smtpPassword.Contains("PLACEHOLDER", StringComparison.OrdinalIgnoreCase);
+            if (isPlaceholder)
+                services.AddScoped<IEmailService, DevEmailService>();
+            else
+                services.AddScoped<IEmailService, EmailService>();
+        }
         services.AddScoped<ISignalRService, SignalRService>();
         services.AddScoped<IAnalyticsService, AnalyticsService>();
 

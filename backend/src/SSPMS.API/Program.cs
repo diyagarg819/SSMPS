@@ -11,7 +11,10 @@ using SSPMS.Infrastructure;
 using SSPMS.Infrastructure.Data;
 using SSPMS.Domain.Entities;
 using SSPMS.Domain.Enums;
+using Microsoft.AspNetCore.DataProtection;
+using System.IO;
 using BC = BCrypt.Net.BCrypt;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +22,21 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers()
     .AddJsonOptions(o => o.JsonSerializerOptions.Converters.Add(new System.Text.Json.Serialization.JsonStringEnumConverter()));
 builder.Services.AddEndpointsApiExplorer();
+
+// ─── Data Protection Persistence ───────────────────────────────────────
+var keysPath = Path.Combine(builder.Environment.ContentRootPath, "keys", "dataprotection");
+if (!Directory.Exists(keysPath)) Directory.CreateDirectory(keysPath);
+builder.Services.AddDataProtection()
+    .PersistKeysToFileSystem(new DirectoryInfo(keysPath))
+    .SetApplicationName("SSPMS");
+
+// ─── JWT Guardrails ────────────────────────────────────────────────────
+var jwtSecret = builder.Configuration["Jwt:Secret"];
+if (string.IsNullOrEmpty(jwtSecret) || jwtSecret.Length < 32)
+{
+    throw new InvalidOperationException("CRITICAL: Jwt:Secret is missing or too short. It must be at least 32 characters in Development.");
+}
+
 
 // ─── Swagger ──────────────────────────────────────────────────────────
 builder.Services.AddSwaggerGen(c =>
@@ -94,40 +112,61 @@ var app = builder.Build();
 // ─── Auto-migrate + seed on startup ──────────────────────────────────
 using (var scope = app.Services.CreateScope())
 {
+    var config = scope.ServiceProvider.GetRequiredService<IConfiguration>();
     var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-    await db.Database.MigrateAsync();
+    var logger = scope.ServiceProvider.GetRequiredService<ILogger<Program>>();
 
-    // Bootstrap: ensure sakshamtapadia02@gmail.com exists as admin
-    const string adminEmail = "sakshamtapadia02@gmail.com";
-    var existingAdmin = await db.Users.FirstOrDefaultAsync(u => u.Role == UserRole.Admin);
-    if (existingAdmin == null)
+    var skipMigration = config.GetValue<bool>("StartupConfig:SkipDbMigration");
+    var seedDevData = config.GetValue<bool>("StartupConfig:SeedDevData");
+
+    if (!skipMigration)
     {
-        db.Users.Add(new User
+        await db.Database.MigrateAsync();
+        logger.LogInformation("Database migration successful.");
+    }
+
+    try
+    {
+        // Bootstrap: ensure garg12064@gmail.com exists as admin
+        const string adminEmail = "garg12064@gmail.com";
+        var existingAdmin = await db.Users.FirstOrDefaultAsync(u => u.Role == UserRole.Admin);
+        if (existingAdmin == null)
         {
-            Name = "Saksham Tapadia",
-            Email = adminEmail,
-            PasswordHash = BC.HashPassword("Admin@1234"),
-            Role = UserRole.Admin,
-            IsActive = true,
-            IsEmailVerified = true
-        });
-    }
-    else
-    {
-        // Only sync email if no other user already owns it (prevent unique constraint crash)
-        var emailTaken = await db.Users.AnyAsync(u => u.Email == adminEmail && u.Id != existingAdmin.Id);
-        if (!emailTaken) existingAdmin.Email = adminEmail;
-        existingAdmin.Name = "Saksham Tapadia";
-        existingAdmin.IsActive = true;
-        existingAdmin.IsEmailVerified = true;
-    }
-    await db.SaveChangesAsync();
+            db.Users.Add(new User
+            {
+                Name = "Diya Garg",
+                Email = adminEmail,
+                PasswordHash = BC.HashPassword("Admin@1234"),
+                Role = UserRole.Admin,
+                IsActive = true,
+                IsEmailVerified = true
+            });
+        }
+        else
+        {
+            var emailTaken = await db.Users.AnyAsync(u => u.Email == adminEmail && u.Id != existingAdmin.Id);
+            if (!emailTaken) existingAdmin.Email = adminEmail;
+            existingAdmin.Name = "Diya Garg";
+            existingAdmin.IsActive = true;
+            existingAdmin.IsEmailVerified = true;
+        }
+        await db.SaveChangesAsync();
 
-    // ── Dev seed: 1 extra admin, 2 trainers, 50 employees ────────────────
-    // Runs automatically whenever there are no non-admin users in the DB.
-    var nonAdminCount = await db.Users.CountAsync(u => u.Role != UserRole.Admin);
-    if (nonAdminCount == 0)
-        await SeedDevDataAsync(db);
+        if (seedDevData)
+        {
+            var nonAdminCount = await db.Users.CountAsync(u => u.Role != UserRole.Admin);
+            if (nonAdminCount == 0)
+            {
+                logger.LogInformation("Seeding development data...");
+                await SeedDevDataAsync(db, logger);
+                logger.LogInformation("Seeding successful.");
+            }
+        }
+    }
+    catch (Exception ex)
+    {
+        logger.LogError(ex, "Seeding/Bootstrap failed. Check database connectivity.");
+    }
 }
 
 // ─── Middleware pipeline ──────────────────────────────────────────────
@@ -170,18 +209,35 @@ public class ExpiredSubmissionsJob : BackgroundService
                 var submissionService = scope.ServiceProvider.GetRequiredService<ISubmissionService>();
                 await submissionService.ProcessExpiredSubmissionsAsync();
             }
-            catch (Exception ex)
+            catch (ObjectDisposedException)
             {
-                _logger.LogError(ex, "Error processing expired submissions.");
+                // Root provider is being disposed (shutting down), break the loop
+                break;
             }
-            await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
+            catch (Exception ex) when (ex is not OperationCanceledException)
+            {
+                try
+                {
+                    _logger.LogError(ex, "Error processing expired submissions.");
+                }
+                catch (ObjectDisposedException) { break; }
+            }
+
+            try
+            {
+                await Task.Delay(TimeSpan.FromMinutes(1), stoppingToken);
+            }
+            catch (OperationCanceledException)
+            {
+                break;
+            }
         }
     }
 }
 
 public partial class Program
 {
-    static async Task SeedDevDataAsync(ApplicationDbContext db)
+    static async Task SeedDevDataAsync(ApplicationDbContext db, ILogger logger)
     {
         // Clear dependent tables in FK-safe order before inserting users
         await db.PasswordResetOTPs.ExecuteDeleteAsync();
@@ -254,6 +310,12 @@ public partial class Program
 
         // ── 2 Classes, one per trainer ───────────────────────────────────
         var trainers = await db.Users.Where(u => u.Role == UserRole.Trainer).ToListAsync();
+        if (trainers.Count < 2)
+        {
+            logger.LogWarning("Not enough trainers found ({Count}) to seed classes correctly.", trainers.Count);
+            return;
+        }
+
         var class1 = new SSPMS.Domain.Entities.Class { Name = ".NET Developer Batch-T1", TrainerId = trainers[0].Id };
         var class2 = new SSPMS.Domain.Entities.Class { Name = ".NET Developer Batch-T2", TrainerId = trainers[1].Id };
         db.Classes.AddRange(class1, class2);

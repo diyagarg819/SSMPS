@@ -58,21 +58,21 @@ public class SubmissionsController : BaseController
         return result.Succeeded ? Ok(result.Data) : NotFound(new { message = result.Error });
     }
 
-    [HttpPut("{id:guid}/evaluate"), Authorize(Roles = "Trainer")]
+    [HttpPut("{id:guid}/evaluate"), Authorize(Roles = "Admin,Trainer")]
     public async Task<IActionResult> Evaluate(Guid id, [FromBody] EvaluateSubmissionRequest request)
     {
         var result = await _submissions.EvaluateAsync(id, request, CurrentUserId);
         return result.Succeeded ? Ok(result.Data) : BadRequest(new { message = result.Error });
     }
 
-    [HttpPut("answers/{answerId:guid}/plagiarism"), Authorize(Roles = "Trainer")]
+    [HttpPut("answers/{answerId:guid}/plagiarism"), Authorize(Roles = "Admin,Trainer")]
     public async Task<IActionResult> SetPlagiarism(Guid answerId, [FromBody] SetPlagiarismRequest request)
     {
         var result = await _submissions.SetPlagiarismFlagAsync(answerId, request.Flag, CurrentUserId);
         return result.Succeeded ? NoContent() : BadRequest(new { message = result.Error });
     }
 
-    [HttpPost("task/{taskId:guid}/bulk-complete"), Authorize(Roles = "Trainer")]
+    [HttpPost("task/{taskId:guid}/bulk-complete"), Authorize(Roles = "Admin,Trainer")]
     public async Task<IActionResult> BulkComplete(Guid taskId)
     {
         var result = await _submissions.BulkCompleteEvaluationAsync(taskId, CurrentUserId);

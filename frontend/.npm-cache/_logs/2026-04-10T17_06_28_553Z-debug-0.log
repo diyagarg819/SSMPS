@@ -1,0 +1,1280 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.9.0
+2 info using node@v24.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\Diya\OneDrive\Desktop\Project\frontend\.npmrc
+5 silly config load:file:C:\Users\Diya\.npmrc
+6 silly config load:file:C:\Users\Diya\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" ".npm-cache" "--no-audit"
+9 verbose logfile logs-max:10 dir:C:\Users\Diya\OneDrive\Desktop\Project\frontend\.npm-cache\_logs\2026-04-10T17_06_28_553Z-
+10 verbose logfile C:\Users\Diya\OneDrive\Desktop\Project\frontend\.npm-cache\_logs\2026-04-10T17_06_28_553Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly idealTree buildDeps
+14 silly reify mark retired [
+14 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\acorn'
+14 silly reify ]
+15 silly reify mark retired [
+15 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ansi-html-community'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\autoprefixer'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\base64id'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\baseline-browser-mapping'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\browserslist'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\chart.js'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\connect'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\cssesc'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\custom-event'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\date-format'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\di'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\dom-serialize'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\encodeurl'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\engine.io'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\engine.io-parser'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ent'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\errno'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\esbuild-wasm'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\esbuild'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\eventsource'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\extend'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\fetch-cookie'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\finalhandler'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\flat'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\fs-extra'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\image-size'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\is-docker'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\is-inside-container'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\isbinaryfile'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\jasmine-core'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\jiti'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\js-yaml'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\jsesc'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\json5'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\jsonfile'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma-chrome-launcher'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma-coverage'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma-jasmine'
+53 silly reify ]
+54 silly reify mark retired [
+54 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma-jasmine-html-reporter'
+54 silly reify ]
+55 silly reify mark retired [
+55 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\launch-editor'
+55 silly reify ]
+56 silly reify mark retired [
+56 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\less'
+56 silly reify ]
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\lmdb'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\lodash-es'
+58 silly reify ]
+59 silly reify mark retired [
+59 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\log4js'
+59 silly reify ]
+60 silly reify mark retired [
+60 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\memfs'
+60 silly reify ]
+61 silly reify mark retired [
+61 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\mime'
+61 silly reify ]
+62 silly reify mark retired [
+62 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\mkdirp'
+62 silly reify ]
+63 silly reify mark retired [
+63 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\msgpackr-extract'
+63 silly reify ]
+64 silly reify mark retired [
+64 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\multicast-dns'
+64 silly reify ]
+65 silly reify mark retired [
+65 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\nanoid'
+65 silly reify ]
+66 silly reify mark retired [
+66 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\needle'
+66 silly reify ]
+67 silly reify mark retired [
+67 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ng2-charts'
+67 silly reify ]
+68 silly reify mark retired [
+68 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\node-forge'
+68 silly reify ]
+69 silly reify mark retired [
+69 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\node-gyp'
+69 silly reify ]
+70 silly reify mark retired [
+70 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\node-gyp-build-optional-packages'
+70 silly reify ]
+71 silly reify mark retired [
+71 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\nopt'
+71 silly reify ]
+72 silly reify mark retired [
+72 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\pacote'
+72 silly reify ]
+73 silly reify mark retired [
+73 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\picomatch'
+73 silly reify ]
+74 silly reify mark retired [
+74 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\punycode'
+74 silly reify ]
+75 silly reify mark retired [
+75 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\qjobs'
+75 silly reify ]
+76 silly reify mark retired [
+76 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\regjsparser'
+76 silly reify ]
+77 silly reify mark retired [
+77 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\resolve'
+77 silly reify ]
+78 silly reify mark retired [
+78 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\rimraf'
+78 silly reify ]
+79 silly reify mark retired [
+79 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\rollup'
+79 silly reify ]
+80 silly reify mark retired [
+80 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\sass'
+80 silly reify ]
+81 silly reify mark retired [
+81 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\semver'
+81 silly reify ]
+82 silly reify mark retired [
+82 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\socket.io'
+82 silly reify ]
+83 silly reify mark retired [
+83 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\socket.io-adapter'
+83 silly reify ]
+84 silly reify mark retired [
+84 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\socket.io-parser'
+84 silly reify ]
+85 silly reify mark retired [
+85 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\streamroller'
+85 silly reify ]
+86 silly reify mark retired [
+86 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\tapable'
+86 silly reify ]
+87 silly reify mark retired [
+87 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\terser'
+87 silly reify ]
+88 silly reify mark retired [
+88 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\tree-kill'
+88 silly reify ]
+89 silly reify mark retired [
+89 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\typescript'
+89 silly reify ]
+90 silly reify mark retired [
+90 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ua-parser-js'
+90 silly reify ]
+91 silly reify mark retired [
+91 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\universalify'
+91 silly reify ]
+92 silly reify mark retired [
+92 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\update-browserslist-db'
+92 silly reify ]
+93 silly reify mark retired [
+93 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\uuid'
+93 silly reify ]
+94 silly reify mark retired [
+94 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\vite'
+94 silly reify ]
+95 silly reify mark retired [
+95 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\void-elements'
+95 silly reify ]
+96 silly reify mark retired [
+96 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\webpack'
+96 silly reify ]
+97 silly reify mark retired [
+97 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\webpack-dev-server'
+97 silly reify ]
+98 silly reify mark retired [
+98 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\which'
+98 silly reify ]
+99 silly reify mark retired [
+99 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ws'
+99 silly reify ]
+100 silly reify mark retired [
+100 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\build'
+100 silly reify ]
+101 silly reify mark retired [
+101 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\cdk'
+101 silly reify ]
+102 silly reify mark retired [
+102 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\cli'
+102 silly reify ]
+103 silly reify mark retired [
+103 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\compiler-cli'
+103 silly reify ]
+104 silly reify mark retired [
+104 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\material'
+104 silly reify ]
+105 silly reify mark retired [
+105 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\architect'
+105 silly reify ]
+106 silly reify mark retired [
+106 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\build-angular'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\build-webpack'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\core'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\schematics'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\parser'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@colors\\colors'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-core'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-fsa'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-node'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-node-builtins'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-node-to-fsa'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-node-utils'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-snapshot'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-print'
+119 silly reify ]
+120 silly reify mark retired [
+120 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@kurkle\\color'
+120 silly reify ]
+121 silly reify mark retired [
+121 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@microsoft\\signalr'
+121 silly reify ]
+122 silly reify mark retired [
+122 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@ngtools\\webpack'
+122 silly reify ]
+123 silly reify mark retired [
+123 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\installed-package-contents'
+123 silly reify ]
+124 silly reify mark retired [
+124 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@schematics\\angular'
+124 silly reify ]
+125 silly reify mark retired [
+125 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@socket.io\\component-emitter'
+125 silly reify ]
+126 silly reify mark retired [
+126 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@types\\jasmine'
+126 silly reify ]
+127 silly reify mark retired [
+127 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\babel-plugin-polyfill-corejs2\\node_modules\\semver'
+127 silly reify ]
+128 silly reify mark retired [
+128 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\cacache\\node_modules\\glob'
+128 silly reify ]
+129 silly reify mark retired [
+129 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\cross-spawn\\node_modules\\which'
+129 silly reify ]
+130 silly reify mark retired [
+130 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\send\\node_modules\\mime'
+130 silly reify ]
+131 silly reify mark retired [
+131 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\tar\\node_modules\\mkdirp'
+131 silly reify ]
+132 silly reify mark retired [
+132 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\core\\node_modules\\semver'
+132 silly reify ]
+133 silly reify mark retired [
+133 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-compilation-targets\\node_modules\\semver'
+133 silly reify ]
+134 silly reify mark retired [
+134 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-create-class-features-plugin\\node_modules\\semver'
+134 silly reify ]
+135 silly reify mark retired [
+135 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-create-regexp-features-plugin\\node_modules\\semver'
+135 silly reify ]
+136 silly reify mark retired [
+136 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-define-polyfill-provider\\node_modules\\resolve'
+136 silly reify ]
+137 silly reify mark retired [
+137 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\plugin-transform-runtime\\node_modules\\semver'
+137 silly reify ]
+138 silly reify mark retired [
+138 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\package-json\\node_modules\\glob'
+138 silly reify ]
+139 silly reify mark retired [
+139 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\git\\node_modules\\which'
+139 silly reify ]
+140 silly reify mark retired [
+140 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\promise-spawn\\node_modules\\which'
+140 silly reify ]
+141 silly reify mark retired [
+141 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\run-script\\node_modules\\which'
+141 silly reify ]
+142 silly reify mark retired [
+142 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\preset-env\\node_modules\\semver'
+142 silly reify ]
+143 silly reify moves {
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\acorn': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.acorn-LjvtBrtP',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ansi-html-community': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.ansi-html-community-WdsUmnPa',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\autoprefixer': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.autoprefixer-yextZCG2',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\base64id': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.base64id-zgmoV16V',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\baseline-browser-mapping': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.baseline-browser-mapping-xf8EwQer',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\browserslist': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.browserslist-2uTfvSU7',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\chart.js': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.chart.js-NzHNLSu6',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\connect': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.connect-Uo4QomXq',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\cssesc': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.cssesc-bi8Uxfsm',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\custom-event': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.custom-event-i6cEQCRc',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\date-format': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.date-format-RUfDjLe4',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\di': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.di-iTq8RQWJ',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\dom-serialize': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.dom-serialize-lk2S3aeB',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\encodeurl': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.encodeurl-EkIZZ5yL',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\engine.io': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.engine.io-CE7OFRZO',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\engine.io-parser': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.engine.io-parser-1rz3739s',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ent': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.ent-ChIqhi4t',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\errno': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.errno-UUQcnXBm',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\esbuild-wasm': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.esbuild-wasm-haEoPPzj',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\esbuild': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.esbuild-M5g2RsYj',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\eventsource': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.eventsource-a45bEyKa',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\extend': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.extend-tLzuwIKR',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\fetch-cookie': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.fetch-cookie-L2TBarlm',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\finalhandler': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.finalhandler-vSrprIXY',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\flat': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.flat-rh4kmYtR',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\fs-extra': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.fs-extra-DaDkL95H',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\image-size': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.image-size-Z9E1NFA7',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\is-docker': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.is-docker-piAqEo6m',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\is-inside-container': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.is-inside-container-Hdyk2v7w',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\isbinaryfile': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.isbinaryfile-x8MRohqa',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\jasmine-core': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.jasmine-core-sCmOwjTj',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\jiti': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.jiti-3hHT3QqS',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\js-yaml': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.js-yaml-64QwOlXZ',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\jsesc': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.jsesc-B1GO9h0c',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\json5': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.json5-cgy6c4PO',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\jsonfile': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.jsonfile-YEBCN2hC',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.karma-hQFAYoJh',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma-chrome-launcher': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.karma-chrome-launcher-jbThalN9',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma-coverage': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.karma-coverage-B47erNB7',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma-jasmine': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.karma-jasmine-HJDLCuWm',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\karma-jasmine-html-reporter': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.karma-jasmine-html-reporter-EuxY2Oea',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\launch-editor': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.launch-editor-YrPDQfXD',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\less': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.less-1Pw95IBH',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\lmdb': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.lmdb-W05RhmbD',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\lodash-es': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.lodash-es-bJQajuMt',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\log4js': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.log4js-BLZISB3P',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\memfs': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.memfs-QL5yJBsn',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\mime': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.mime-Oad0Hqdk',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\mkdirp': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.mkdirp-CKbZp4LE',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\msgpackr-extract': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.msgpackr-extract-Fc2dkyII',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\multicast-dns': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.multicast-dns-2p15GIIY',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\nanoid': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.nanoid-dimfUzCu',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\needle': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.needle-opBka6aL',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ng2-charts': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.ng2-charts-gf9xHrGF',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\node-forge': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.node-forge-aD2LYgKH',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\node-gyp': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.node-gyp-L2NutWV8',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\node-gyp-build-optional-packages': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.node-gyp-build-optional-packages-Gxgqsd4S',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\nopt': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.nopt-2D5quFOr',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\pacote': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.pacote-yxZm2j1c',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\picomatch': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.picomatch-TnLWQcxW',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\punycode': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.punycode-BveiSTJp',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\qjobs': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.qjobs-SJEuJWKL',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\regjsparser': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.regjsparser-f3YaX4oe',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\resolve': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.resolve-ysZUuhTZ',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\rimraf': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.rimraf-3EIoRaJR',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\rollup': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.rollup-MouSotKA',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\sass': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.sass-doXaKOnT',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\semver': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.semver-V93cpOwl',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\socket.io': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.socket.io-CEL3E58k',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\socket.io-adapter': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.socket.io-adapter-sx6IYkQX',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\socket.io-parser': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.socket.io-parser-8QPok8t4',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\streamroller': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.streamroller-A9IzdJod',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\tapable': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.tapable-LRKd0uOC',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\terser': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.terser-6HPD2psc',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\tree-kill': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.tree-kill-FxUjKZKT',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\typescript': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.typescript-MtZ33nr6',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ua-parser-js': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.ua-parser-js-RjmztbIw',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\universalify': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.universalify-0V1nabXX',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\update-browserslist-db': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.update-browserslist-db-PdZ3rRMp',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\uuid': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.uuid-lx5RWXO7',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\vite': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.vite-jYL4xOlD',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\void-elements': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.void-elements-im1EYrCw',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\webpack': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.webpack-IlD1rN4i',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\webpack-dev-server': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.webpack-dev-server-ErcF50Cs',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\which': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.which-HiznxdHA',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\ws': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\.ws-T6R62HfT',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\build': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\.build-6uvzHTKW',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\cdk': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\.cdk-USPiWcnt',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\cli': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\.cli-a83xxiWc',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\compiler-cli': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\.compiler-cli-SYNzO3M8',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\material': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular\\.material-ZnDq4S14',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\architect': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\.architect-gb9n3CGp',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\build-angular': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\.build-angular-Z6oYoL34',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\build-webpack': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\.build-webpack-gJIOAXsy',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\core': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\.core-6mahSF3t',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\schematics': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@angular-devkit\\.schematics-N6GyPEV8',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\parser': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\.parser-mYELiE5j',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@colors\\colors': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@colors\\.colors-gIGNSZJL',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-core': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\.fs-core-Fk6IO5Lt',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-fsa': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\.fs-fsa-oizOQtMc',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-node': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\.fs-node-0OY5bO4v',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-node-builtins': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\.fs-node-builtins-wpilk0n3',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-node-to-fsa': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\.fs-node-to-fsa-lplqOndh',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-node-utils': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\.fs-node-utils-PtgXFX76',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-snapshot': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\.fs-snapshot-uwZ5WT0f',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\fs-print': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@jsonjoy.com\\.fs-print-zPVfCuj2',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@kurkle\\color': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@kurkle\\.color-DmI7sy3o',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@microsoft\\signalr': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@microsoft\\.signalr-a729Y76X',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@ngtools\\webpack': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@ngtools\\.webpack-Bc10Wt0o',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\installed-package-contents': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\.installed-package-contents-MaXW1QKM',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@schematics\\angular': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@schematics\\.angular-6aZwHteP',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@socket.io\\component-emitter': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@socket.io\\.component-emitter-G3RygBjA',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@types\\jasmine': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@types\\.jasmine-KTFsY6xs',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\babel-plugin-polyfill-corejs2\\node_modules\\semver': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\babel-plugin-polyfill-corejs2\\node_modules\\.semver-ehjYxOah',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\cacache\\node_modules\\glob': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\cacache\\node_modules\\.glob-vTcEImfm',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\cross-spawn\\node_modules\\which': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\cross-spawn\\node_modules\\.which-jTBYJOcC',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\send\\node_modules\\mime': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\send\\node_modules\\.mime-aBcGYdfG',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\tar\\node_modules\\mkdirp': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\tar\\node_modules\\.mkdirp-OGQ37brZ',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\core\\node_modules\\semver': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\core\\node_modules\\.semver-IeHeSggK',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-compilation-targets\\node_modules\\semver': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-compilation-targets\\node_modules\\.semver-kOl3VVR6',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-create-class-features-plugin\\node_modules\\semver': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-create-class-features-plugin\\node_modules\\.semver-qbuvb7Lh',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-create-regexp-features-plugin\\node_modules\\semver': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-create-regexp-features-plugin\\node_modules\\.semver-0ABBOdoZ',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-define-polyfill-provider\\node_modules\\resolve': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\helper-define-polyfill-provider\\node_modules\\.resolve-t6oLAgs6',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\plugin-transform-runtime\\node_modules\\semver': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\plugin-transform-runtime\\node_modules\\.semver-ryCuteTT',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\package-json\\node_modules\\glob': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\package-json\\node_modules\\.glob-i8oS5Y8W',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\git\\node_modules\\which': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\git\\node_modules\\.which-ffwD2255',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\promise-spawn\\node_modules\\which': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\promise-spawn\\node_modules\\.which-VcbdKarK',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\run-script\\node_modules\\which': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@npmcli\\run-script\\node_modules\\.which-IAiIH0jH',
+143 silly reify   'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\preset-env\\node_modules\\semver': 'C:\\Users\\Diya\\OneDrive\\Desktop\\Project\\frontend\\node_modules\\@babel\\preset-env\\node_modules\\.semver-EMPoJMVl'
+143 silly reify }
+144 http cache @schematics/angular@https://registry.npmjs.org/@schematics/angular/-/angular-19.2.22.tgz 32ms (cache hit)
+145 http cache @types/jasmine@https://registry.npmjs.org/@types/jasmine/-/jasmine-5.1.15.tgz 0ms (cache hit)
+146 http cache @socket.io/component-emitter@https://registry.npmjs.org/@socket.io/component-emitter/-/component-emitter-3.1.2.tgz 0ms (cache hit)
+147 http cache @npmcli/installed-package-contents@https://registry.npmjs.org/@npmcli/installed-package-contents/-/installed-package-contents-3.0.0.tgz 0ms (cache hit)
+148 http cache @ngtools/webpack@https://registry.npmjs.org/@ngtools/webpack/-/webpack-19.2.22.tgz 0ms (cache hit)
+149 http cache @microsoft/signalr@https://registry.npmjs.org/@microsoft/signalr/-/signalr-10.0.0.tgz 0ms (cache hit)
+150 http cache @jsonjoy.com/fs-print@https://registry.npmjs.org/@jsonjoy.com/fs-print/-/fs-print-4.56.11.tgz 0ms (cache hit)
+151 http cache @jsonjoy.com/fs-snapshot@https://registry.npmjs.org/@jsonjoy.com/fs-snapshot/-/fs-snapshot-4.56.11.tgz 0ms (cache hit)
+152 http cache @kurkle/color@https://registry.npmjs.org/@kurkle/color/-/color-0.3.4.tgz 0ms (cache hit)
+153 http cache @jsonjoy.com/fs-node-utils@https://registry.npmjs.org/@jsonjoy.com/fs-node-utils/-/fs-node-utils-4.56.11.tgz 0ms (cache hit)
+154 http cache @jsonjoy.com/fs-node@https://registry.npmjs.org/@jsonjoy.com/fs-node/-/fs-node-4.56.11.tgz 0ms (cache hit)
+155 http cache @jsonjoy.com/fs-node-to-fsa@https://registry.npmjs.org/@jsonjoy.com/fs-node-to-fsa/-/fs-node-to-fsa-4.56.11.tgz 1ms (cache hit)
+156 http cache @jsonjoy.com/fs-node-builtins@https://registry.npmjs.org/@jsonjoy.com/fs-node-builtins/-/fs-node-builtins-4.56.11.tgz 0ms (cache hit)
+157 http cache @jsonjoy.com/fs-core@https://registry.npmjs.org/@jsonjoy.com/fs-core/-/fs-core-4.56.11.tgz 0ms (cache hit)
+158 http cache @jsonjoy.com/fs-fsa@https://registry.npmjs.org/@jsonjoy.com/fs-fsa/-/fs-fsa-4.56.11.tgz 0ms (cache hit)
+159 http cache @colors/colors@https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz 0ms (cache hit)
+160 http cache @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz 0ms (cache hit)
+161 http cache @angular-devkit/schematics@https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-19.2.22.tgz 0ms (cache hit)
+162 http cache @angular-devkit/build-webpack@https://registry.npmjs.org/@angular-devkit/build-webpack/-/build-webpack-0.1902.22.tgz 1ms (cache hit)
+163 http cache @angular-devkit/core@https://registry.npmjs.org/@angular-devkit/core/-/core-19.2.22.tgz 0ms (cache hit)
+164 http cache @angular-devkit/architect@https://registry.npmjs.org/@angular-devkit/architect/-/architect-0.1902.22.tgz 0ms (cache hit)
+165 http cache @angular/material@https://registry.npmjs.org/@angular/material/-/material-19.2.19.tgz 0ms (cache hit)
+166 http cache @angular-devkit/build-angular@https://registry.npmjs.org/@angular-devkit/build-angular/-/build-angular-19.2.22.tgz 0ms (cache hit)
+167 http cache @angular/compiler-cli@https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-19.2.20.tgz 0ms (cache hit)
+168 http cache ws@https://registry.npmjs.org/ws/-/ws-8.18.3.tgz 0ms (cache hit)
+169 http cache which@https://registry.npmjs.org/which/-/which-1.3.1.tgz 0ms (cache hit)
+170 http cache @angular/cdk@https://registry.npmjs.org/@angular/cdk/-/cdk-19.2.19.tgz 0ms (cache hit)
+171 http cache webpack-dev-server@https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-5.2.2.tgz 1ms (cache hit)
+172 http cache @angular/build@https://registry.npmjs.org/@angular/build/-/build-19.2.22.tgz 0ms (cache hit)
+173 http cache webpack@https://registry.npmjs.org/webpack/-/webpack-5.105.0.tgz 0ms (cache hit)
+174 http cache void-elements@https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz 0ms (cache hit)
+175 http cache uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 1ms (cache hit)
+176 http cache universalify@https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz 1ms (cache hit)
+177 http cache vite@https://registry.npmjs.org/vite/-/vite-6.4.1.tgz 2ms (cache hit)
+178 http cache update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 0ms (cache hit)
+179 http cache ua-parser-js@https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.41.tgz 0ms (cache hit)
+180 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz 1ms (cache hit)
+181 http cache tree-kill@https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz 0ms (cache hit)
+182 http cache terser@https://registry.npmjs.org/terser/-/terser-5.39.0.tgz 4ms (cache hit)
+183 http cache tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.0.tgz 0ms (cache hit)
+184 http cache streamroller@https://registry.npmjs.org/streamroller/-/streamroller-3.1.5.tgz 0ms (cache hit)
+185 http cache socket.io@https://registry.npmjs.org/socket.io/-/socket.io-4.8.3.tgz 0ms (cache hit)
+186 http cache socket.io-parser@https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-4.2.6.tgz 0ms (cache hit)
+187 http cache socket.io-adapter@https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-2.5.6.tgz 0ms (cache hit)
+188 http cache semver@https://registry.npmjs.org/semver/-/semver-7.7.1.tgz 0ms (cache hit)
+189 http cache rollup@https://registry.npmjs.org/rollup/-/rollup-4.59.0.tgz 0ms (cache hit)
+190 http cache sass@https://registry.npmjs.org/sass/-/sass-1.85.0.tgz 1ms (cache hit)
+191 http cache rimraf@https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 0ms (cache hit)
+192 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz 0ms (cache hit)
+193 http cache qjobs@https://registry.npmjs.org/qjobs/-/qjobs-1.2.0.tgz 0ms (cache hit)
+194 http cache punycode@https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz 0ms (cache hit)
+195 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz 1ms (cache hit)
+196 http cache pacote@https://registry.npmjs.org/pacote/-/pacote-20.0.0.tgz 0ms (cache hit)
+197 http cache node-gyp-build-optional-packages@https://registry.npmjs.org/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-5.2.2.tgz 0ms (cache hit)
+198 http cache regjsparser@https://registry.npmjs.org/regjsparser/-/regjsparser-0.13.0.tgz 1ms (cache hit)
+199 http cache nopt@https://registry.npmjs.org/nopt/-/nopt-8.1.0.tgz 0ms (cache hit)
+200 http cache node-gyp@https://registry.npmjs.org/node-gyp/-/node-gyp-11.5.0.tgz 0ms (cache hit)
+201 http cache node-forge@https://registry.npmjs.org/node-forge/-/node-forge-1.3.3.tgz 0ms (cache hit)
+202 http cache needle@https://registry.npmjs.org/needle/-/needle-3.5.0.tgz 1ms (cache hit)
+203 http cache multicast-dns@https://registry.npmjs.org/multicast-dns/-/multicast-dns-7.2.5.tgz 1ms (cache hit)
+204 http cache ng2-charts@https://registry.npmjs.org/ng2-charts/-/ng2-charts-5.0.4.tgz 1ms (cache hit)
+205 http cache nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 22ms (cache hit)
+206 http cache msgpackr-extract@https://registry.npmjs.org/msgpackr-extract/-/msgpackr-extract-3.0.3.tgz 0ms (cache hit)
+207 http cache log4js@https://registry.npmjs.org/log4js/-/log4js-6.9.1.tgz 0ms (cache hit)
+208 http cache mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz 0ms (cache hit)
+209 http cache memfs@https://registry.npmjs.org/memfs/-/memfs-4.56.11.tgz 0ms (cache hit)
+210 http cache mime@https://registry.npmjs.org/mime/-/mime-2.6.0.tgz 0ms (cache hit)
+211 http cache lodash-es@https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.23.tgz 4ms (cache hit)
+212 http cache less@https://registry.npmjs.org/less/-/less-4.2.2.tgz 0ms (cache hit)
+213 http cache lmdb@https://registry.npmjs.org/lmdb/-/lmdb-3.2.6.tgz 1ms (cache hit)
+214 http cache launch-editor@https://registry.npmjs.org/launch-editor/-/launch-editor-2.13.1.tgz 1ms (cache hit)
+215 http cache karma-jasmine@https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-5.1.0.tgz 0ms (cache hit)
+216 http cache karma-jasmine-html-reporter@https://registry.npmjs.org/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-2.1.0.tgz 1ms (cache hit)
+217 http cache karma-coverage@https://registry.npmjs.org/karma-coverage/-/karma-coverage-2.2.1.tgz 0ms (cache hit)
+218 http cache karma-chrome-launcher@https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-3.2.0.tgz 1ms (cache hit)
+219 http cache karma@https://registry.npmjs.org/karma/-/karma-6.4.4.tgz 0ms (cache hit)
+220 http cache jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz 0ms (cache hit)
+221 http cache json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 1ms (cache hit)
+222 http cache jiti@https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 0ms (cache hit)
+223 http cache jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 0ms (cache hit)
+224 http cache is-inside-container@https://registry.npmjs.org/is-inside-container/-/is-inside-container-1.0.0.tgz 0ms (cache hit)
+225 http cache js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 0ms (cache hit)
+226 http cache is-docker@https://registry.npmjs.org/is-docker/-/is-docker-3.0.0.tgz 0ms (cache hit)
+227 http cache jasmine-core@https://registry.npmjs.org/jasmine-core/-/jasmine-core-5.6.0.tgz 0ms (cache hit)
+228 http cache isbinaryfile@https://registry.npmjs.org/isbinaryfile/-/isbinaryfile-4.0.10.tgz 0ms (cache hit)
+229 http cache image-size@https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz 0ms (cache hit)
+230 http cache fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz 0ms (cache hit)
+231 http cache finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.2.tgz 0ms (cache hit)
+232 http cache fetch-cookie@https://registry.npmjs.org/fetch-cookie/-/fetch-cookie-2.2.0.tgz 0ms (cache hit)
+233 http cache extend@https://registry.npmjs.org/extend/-/extend-3.0.2.tgz 0ms (cache hit)
+234 http cache esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.4.tgz 0ms (cache hit)
+235 http cache flat@https://registry.npmjs.org/flat/-/flat-5.0.2.tgz 0ms (cache hit)
+236 http cache esbuild-wasm@https://registry.npmjs.org/esbuild-wasm/-/esbuild-wasm-0.25.4.tgz 0ms (cache hit)
+237 http cache eventsource@https://registry.npmjs.org/eventsource/-/eventsource-2.0.2.tgz 0ms (cache hit)
+238 http cache errno@https://registry.npmjs.org/errno/-/errno-0.1.8.tgz 1ms (cache hit)
+239 http cache ent@https://registry.npmjs.org/ent/-/ent-2.2.2.tgz 0ms (cache hit)
+240 http cache encodeurl@https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz 0ms (cache hit)
+241 http cache engine.io-parser@https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.2.3.tgz 0ms (cache hit)
+242 http cache engine.io@https://registry.npmjs.org/engine.io/-/engine.io-6.6.6.tgz 1ms (cache hit)
+243 http cache di@https://registry.npmjs.org/di/-/di-0.0.1.tgz 1ms (cache hit)
+244 http cache dom-serialize@https://registry.npmjs.org/dom-serialize/-/dom-serialize-2.2.1.tgz 0ms (cache hit)
+245 http cache date-format@https://registry.npmjs.org/date-format/-/date-format-4.0.14.tgz 1ms (cache hit)
+246 http cache cssesc@https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 0ms (cache hit)
+247 http cache custom-event@https://registry.npmjs.org/custom-event/-/custom-event-1.0.1.tgz 0ms (cache hit)
+248 http cache base64id@https://registry.npmjs.org/base64id/-/base64id-2.0.0.tgz 0ms (cache hit)
+249 http cache baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.9.tgz 0ms (cache hit)
+250 http cache connect@https://registry.npmjs.org/connect/-/connect-3.7.0.tgz 0ms (cache hit)
+251 http cache autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz 0ms (cache hit)
+252 http cache chart.js@https://registry.npmjs.org/chart.js/-/chart.js-4.5.1.tgz 0ms (cache hit)
+253 http cache ansi-html-community@https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz 0ms (cache hit)
+254 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+255 http cache which@https://registry.npmjs.org/which/-/which-5.0.0.tgz 0ms (cache hit)
+256 http cache which@https://registry.npmjs.org/which/-/which-5.0.0.tgz 0ms (cache hit)
+257 http cache which@https://registry.npmjs.org/which/-/which-5.0.0.tgz 1ms (cache hit)
+258 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+259 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+260 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+261 http cache glob@https://registry.npmjs.org/glob/-/glob-10.5.0.tgz 0ms (cache hit)
+262 http cache resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz 0ms (cache hit)
+263 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+264 http cache browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 0ms (cache hit)
+265 http cache mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 1ms (cache hit)
+266 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+267 http cache acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 1ms (cache hit)
+268 http cache which@https://registry.npmjs.org/which/-/which-2.0.2.tgz 1ms (cache hit)
+269 http cache ws@https://registry.npmjs.org/ws/-/ws-7.5.10.tgz 0ms (cache hit)
+270 http cache glob@https://registry.npmjs.org/glob/-/glob-10.5.0.tgz 0ms (cache hit)
+271 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 3ms (cache hit)
+272 http cache @jsonjoy.com/util@https://registry.npmjs.org/@jsonjoy.com/util/-/util-17.67.0.tgz 0ms (cache hit)
+273 http cache @jsonjoy.com/json-pack@https://registry.npmjs.org/@jsonjoy.com/json-pack/-/json-pack-17.67.0.tgz 0ms (cache hit)
+274 http cache @jsonjoy.com/codegen@https://registry.npmjs.org/@jsonjoy.com/codegen/-/codegen-17.67.0.tgz 1ms (cache hit)
+275 http cache mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 0ms (cache hit)
+276 http cache @jsonjoy.com/json-pointer@https://registry.npmjs.org/@jsonjoy.com/json-pointer/-/json-pointer-17.67.0.tgz 1ms (cache hit)
+277 http cache @jsonjoy.com/base64@https://registry.npmjs.org/@jsonjoy.com/base64/-/base64-17.67.0.tgz 1ms (cache hit)
+278 http cache rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 27ms (cache hit)
+279 http cache rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 0ms (cache hit)
+280 http cache rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 0ms (cache hit)
+281 http cache @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.26.9.tgz 1ms (cache hit)
+282 http cache rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 0ms (cache hit)
+283 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+284 http cache rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 0ms (cache hit)
+285 http cache convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 0ms (cache hit)
+286 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 0ms (cache hit)
+287 http cache watchpack@https://registry.npmjs.org/watchpack/-/watchpack-2.5.1.tgz 0ms (cache hit)
+288 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 0ms (cache hit)
+289 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 0ms (cache hit)
+290 http cache http-proxy-middleware@https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-2.0.9.tgz 1ms (cache hit)
+291 http cache json-parse-even-better-errors@https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz 0ms (cache hit)
+292 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+293 http cache which@https://registry.npmjs.org/which/-/which-5.0.0.tgz 0ms (cache hit)
+294 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.8.tgz 0ms (cache hit)
+295 http cache yallist@https://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz 0ms (cache hit)
+296 http cache tar@https://registry.npmjs.org/tar/-/tar-7.5.12.tgz 0ms (cache hit)
+297 http cache iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 0ms (cache hit)
+298 http cache isexe@https://registry.npmjs.org/isexe/-/isexe-3.1.5.tgz 1ms (cache hit)
+299 http cache chownr@https://registry.npmjs.org/chownr/-/chownr-3.0.0.tgz 0ms (cache hit)
+300 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 1ms (cache hit)
+301 http cache semver@https://registry.npmjs.org/semver/-/semver-5.7.2.tgz 0ms (cache hit)
+302 http cache jasmine-core@https://registry.npmjs.org/jasmine-core/-/jasmine-core-4.6.1.tgz 0ms (cache hit)
+303 http cache mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 0ms (cache hit)
+304 http cache semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 0ms (cache hit)
+305 http cache make-dir@https://registry.npmjs.org/make-dir/-/make-dir-2.1.0.tgz 0ms (cache hit)
+306 http cache istanbul-lib-instrument@https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-5.2.1.tgz 0ms (cache hit)
+307 http cache yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 0ms (cache hit)
+308 http cache @angular/cli@https://registry.npmjs.org/@angular/cli/-/cli-19.2.22.tgz 0ms (cache hit)
+309 http cache yargs@https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz 1ms (cache hit)
+310 http cache strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 0ms (cache hit)
+311 http cache source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 0ms (cache hit)
+312 http cache readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 0ms (cache hit)
+313 http cache string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 0ms (cache hit)
+314 http cache picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 22ms (cache hit)
+315 http cache emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 1ms (cache hit)
+316 http cache glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 0ms (cache hit)
+317 http cache is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 0ms (cache hit)
+318 http cache wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 0ms (cache hit)
+319 http cache chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 0ms (cache hit)
+320 http cache on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz 0ms (cache hit)
+321 http cache debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 0ms (cache hit)
+322 http cache cliui@https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz 0ms (cache hit)
+323 http cache ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 0ms (cache hit)
+324 http cache ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 1ms (cache hit)
+325 silly tarball no local data for @schematics/angular@https://registry.npmjs.org/@schematics/angular/-/angular-19.2.22.tgz. Extracting by manifest.
+326 silly tarball no local data for @types/jasmine@https://registry.npmjs.org/@types/jasmine/-/jasmine-5.1.15.tgz. Extracting by manifest.
+327 silly tarball no local data for @socket.io/component-emitter@https://registry.npmjs.org/@socket.io/component-emitter/-/component-emitter-3.1.2.tgz. Extracting by manifest.
+328 silly tarball no local data for @npmcli/installed-package-contents@https://registry.npmjs.org/@npmcli/installed-package-contents/-/installed-package-contents-3.0.0.tgz. Extracting by manifest.
+329 silly tarball no local data for @ngtools/webpack@https://registry.npmjs.org/@ngtools/webpack/-/webpack-19.2.22.tgz. Extracting by manifest.
+330 silly tarball no local data for @microsoft/signalr@https://registry.npmjs.org/@microsoft/signalr/-/signalr-10.0.0.tgz. Extracting by manifest.
+331 silly tarball no local data for @jsonjoy.com/fs-print@https://registry.npmjs.org/@jsonjoy.com/fs-print/-/fs-print-4.56.11.tgz. Extracting by manifest.
+332 silly tarball no local data for @jsonjoy.com/fs-snapshot@https://registry.npmjs.org/@jsonjoy.com/fs-snapshot/-/fs-snapshot-4.56.11.tgz. Extracting by manifest.
+333 silly tarball no local data for @kurkle/color@https://registry.npmjs.org/@kurkle/color/-/color-0.3.4.tgz. Extracting by manifest.
+334 silly tarball no local data for @jsonjoy.com/fs-node-utils@https://registry.npmjs.org/@jsonjoy.com/fs-node-utils/-/fs-node-utils-4.56.11.tgz. Extracting by manifest.
+335 silly tarball no local data for @jsonjoy.com/fs-node@https://registry.npmjs.org/@jsonjoy.com/fs-node/-/fs-node-4.56.11.tgz. Extracting by manifest.
+336 silly tarball no local data for @jsonjoy.com/fs-node-to-fsa@https://registry.npmjs.org/@jsonjoy.com/fs-node-to-fsa/-/fs-node-to-fsa-4.56.11.tgz. Extracting by manifest.
+337 http cache ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 0ms (cache hit)
+338 silly tarball no local data for @jsonjoy.com/fs-node-builtins@https://registry.npmjs.org/@jsonjoy.com/fs-node-builtins/-/fs-node-builtins-4.56.11.tgz. Extracting by manifest.
+339 silly tarball no local data for @jsonjoy.com/fs-core@https://registry.npmjs.org/@jsonjoy.com/fs-core/-/fs-core-4.56.11.tgz. Extracting by manifest.
+340 silly tarball no local data for @jsonjoy.com/fs-fsa@https://registry.npmjs.org/@jsonjoy.com/fs-fsa/-/fs-fsa-4.56.11.tgz. Extracting by manifest.
+341 silly tarball no local data for @colors/colors@https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz. Extracting by manifest.
+342 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz. Extracting by manifest.
+343 silly tarball no local data for @angular-devkit/schematics@https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-19.2.22.tgz. Extracting by manifest.
+344 silly tarball no local data for @angular-devkit/build-webpack@https://registry.npmjs.org/@angular-devkit/build-webpack/-/build-webpack-0.1902.22.tgz. Extracting by manifest.
+345 silly tarball no local data for @angular-devkit/core@https://registry.npmjs.org/@angular-devkit/core/-/core-19.2.22.tgz. Extracting by manifest.
+346 silly tarball no local data for @angular-devkit/architect@https://registry.npmjs.org/@angular-devkit/architect/-/architect-0.1902.22.tgz. Extracting by manifest.
+347 silly tarball no local data for @angular/material@https://registry.npmjs.org/@angular/material/-/material-19.2.19.tgz. Extracting by manifest.
+348 silly tarball no local data for @angular-devkit/build-angular@https://registry.npmjs.org/@angular-devkit/build-angular/-/build-angular-19.2.22.tgz. Extracting by manifest.
+349 silly tarball no local data for @angular/compiler-cli@https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-19.2.20.tgz. Extracting by manifest.
+350 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.18.3.tgz. Extracting by manifest.
+351 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-1.3.1.tgz. Extracting by manifest.
+352 silly tarball no local data for @angular/cdk@https://registry.npmjs.org/@angular/cdk/-/cdk-19.2.19.tgz. Extracting by manifest.
+353 silly tarball no local data for webpack-dev-server@https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-5.2.2.tgz. Extracting by manifest.
+354 silly tarball no local data for @angular/build@https://registry.npmjs.org/@angular/build/-/build-19.2.22.tgz. Extracting by manifest.
+355 silly tarball no local data for webpack@https://registry.npmjs.org/webpack/-/webpack-5.105.0.tgz. Extracting by manifest.
+356 silly tarball no local data for void-elements@https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz. Extracting by manifest.
+357 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz. Extracting by manifest.
+358 silly tarball no local data for universalify@https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz. Extracting by manifest.
+359 silly tarball no local data for vite@https://registry.npmjs.org/vite/-/vite-6.4.1.tgz. Extracting by manifest.
+360 silly tarball no local data for update-browserslist-db@https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz. Extracting by manifest.
+361 silly tarball no local data for ua-parser-js@https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.41.tgz. Extracting by manifest.
+362 silly tarball no local data for typescript@https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz. Extracting by manifest.
+363 silly tarball no local data for tree-kill@https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz. Extracting by manifest.
+364 http cache debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 1ms (cache hit)
+365 silly tarball no local data for terser@https://registry.npmjs.org/terser/-/terser-5.39.0.tgz. Extracting by manifest.
+366 silly tarball no local data for tapable@https://registry.npmjs.org/tapable/-/tapable-2.3.0.tgz. Extracting by manifest.
+367 silly tarball no local data for streamroller@https://registry.npmjs.org/streamroller/-/streamroller-3.1.5.tgz. Extracting by manifest.
+368 silly tarball no local data for socket.io@https://registry.npmjs.org/socket.io/-/socket.io-4.8.3.tgz. Extracting by manifest.
+369 silly tarball no local data for socket.io-parser@https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-4.2.6.tgz. Extracting by manifest.
+370 silly tarball no local data for socket.io-adapter@https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-2.5.6.tgz. Extracting by manifest.
+371 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-7.7.1.tgz. Extracting by manifest.
+372 silly tarball no local data for rollup@https://registry.npmjs.org/rollup/-/rollup-4.59.0.tgz. Extracting by manifest.
+373 silly tarball no local data for sass@https://registry.npmjs.org/sass/-/sass-1.85.0.tgz. Extracting by manifest.
+374 silly tarball no local data for rimraf@https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz. Extracting by manifest.
+375 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz. Extracting by manifest.
+376 silly tarball no local data for qjobs@https://registry.npmjs.org/qjobs/-/qjobs-1.2.0.tgz. Extracting by manifest.
+377 silly tarball no local data for punycode@https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz. Extracting by manifest.
+378 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz. Extracting by manifest.
+379 silly tarball no local data for pacote@https://registry.npmjs.org/pacote/-/pacote-20.0.0.tgz. Extracting by manifest.
+380 silly tarball no local data for node-gyp-build-optional-packages@https://registry.npmjs.org/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-5.2.2.tgz. Extracting by manifest.
+381 silly tarball no local data for regjsparser@https://registry.npmjs.org/regjsparser/-/regjsparser-0.13.0.tgz. Extracting by manifest.
+382 silly tarball no local data for nopt@https://registry.npmjs.org/nopt/-/nopt-8.1.0.tgz. Extracting by manifest.
+383 silly tarball no local data for node-gyp@https://registry.npmjs.org/node-gyp/-/node-gyp-11.5.0.tgz. Extracting by manifest.
+384 silly tarball no local data for node-forge@https://registry.npmjs.org/node-forge/-/node-forge-1.3.3.tgz. Extracting by manifest.
+385 silly tarball no local data for needle@https://registry.npmjs.org/needle/-/needle-3.5.0.tgz. Extracting by manifest.
+386 silly tarball no local data for multicast-dns@https://registry.npmjs.org/multicast-dns/-/multicast-dns-7.2.5.tgz. Extracting by manifest.
+387 silly tarball no local data for ng2-charts@https://registry.npmjs.org/ng2-charts/-/ng2-charts-5.0.4.tgz. Extracting by manifest.
+388 silly tarball no local data for nanoid@https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz. Extracting by manifest.
+389 silly tarball no local data for msgpackr-extract@https://registry.npmjs.org/msgpackr-extract/-/msgpackr-extract-3.0.3.tgz. Extracting by manifest.
+390 silly tarball no local data for log4js@https://registry.npmjs.org/log4js/-/log4js-6.9.1.tgz. Extracting by manifest.
+391 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz. Extracting by manifest.
+392 silly tarball no local data for memfs@https://registry.npmjs.org/memfs/-/memfs-4.56.11.tgz. Extracting by manifest.
+393 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-2.6.0.tgz. Extracting by manifest.
+394 silly tarball no local data for lodash-es@https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.23.tgz. Extracting by manifest.
+395 silly tarball no local data for less@https://registry.npmjs.org/less/-/less-4.2.2.tgz. Extracting by manifest.
+396 silly tarball no local data for lmdb@https://registry.npmjs.org/lmdb/-/lmdb-3.2.6.tgz. Extracting by manifest.
+397 silly tarball no local data for launch-editor@https://registry.npmjs.org/launch-editor/-/launch-editor-2.13.1.tgz. Extracting by manifest.
+398 silly tarball no local data for karma-jasmine@https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-5.1.0.tgz. Extracting by manifest.
+399 silly tarball no local data for karma-jasmine-html-reporter@https://registry.npmjs.org/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-2.1.0.tgz. Extracting by manifest.
+400 silly tarball no local data for karma-coverage@https://registry.npmjs.org/karma-coverage/-/karma-coverage-2.2.1.tgz. Extracting by manifest.
+401 silly tarball no local data for karma-chrome-launcher@https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-3.2.0.tgz. Extracting by manifest.
+402 silly tarball no local data for karma@https://registry.npmjs.org/karma/-/karma-6.4.4.tgz. Extracting by manifest.
+403 silly tarball no local data for jsonfile@https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz. Extracting by manifest.
+404 silly tarball no local data for json5@https://registry.npmjs.org/json5/-/json5-2.2.3.tgz. Extracting by manifest.
+405 silly tarball no local data for jiti@https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz. Extracting by manifest.
+406 silly tarball no local data for jsesc@https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz. Extracting by manifest.
+407 silly tarball no local data for is-inside-container@https://registry.npmjs.org/is-inside-container/-/is-inside-container-1.0.0.tgz. Extracting by manifest.
+408 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz. Extracting by manifest.
+409 silly tarball no local data for is-docker@https://registry.npmjs.org/is-docker/-/is-docker-3.0.0.tgz. Extracting by manifest.
+410 silly tarball no local data for jasmine-core@https://registry.npmjs.org/jasmine-core/-/jasmine-core-5.6.0.tgz. Extracting by manifest.
+411 silly tarball no local data for isbinaryfile@https://registry.npmjs.org/isbinaryfile/-/isbinaryfile-4.0.10.tgz. Extracting by manifest.
+412 silly tarball no local data for image-size@https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz. Extracting by manifest.
+413 silly tarball no local data for fs-extra@https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz. Extracting by manifest.
+414 silly tarball no local data for finalhandler@https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.2.tgz. Extracting by manifest.
+415 silly tarball no local data for fetch-cookie@https://registry.npmjs.org/fetch-cookie/-/fetch-cookie-2.2.0.tgz. Extracting by manifest.
+416 silly tarball no local data for extend@https://registry.npmjs.org/extend/-/extend-3.0.2.tgz. Extracting by manifest.
+417 silly tarball no local data for esbuild@https://registry.npmjs.org/esbuild/-/esbuild-0.25.4.tgz. Extracting by manifest.
+418 silly tarball no local data for flat@https://registry.npmjs.org/flat/-/flat-5.0.2.tgz. Extracting by manifest.
+419 silly tarball no local data for esbuild-wasm@https://registry.npmjs.org/esbuild-wasm/-/esbuild-wasm-0.25.4.tgz. Extracting by manifest.
+420 silly tarball no local data for eventsource@https://registry.npmjs.org/eventsource/-/eventsource-2.0.2.tgz. Extracting by manifest.
+421 silly tarball no local data for errno@https://registry.npmjs.org/errno/-/errno-0.1.8.tgz. Extracting by manifest.
+422 silly tarball no local data for ent@https://registry.npmjs.org/ent/-/ent-2.2.2.tgz. Extracting by manifest.
+423 silly tarball no local data for encodeurl@https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz. Extracting by manifest.
+424 silly tarball no local data for engine.io-parser@https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.2.3.tgz. Extracting by manifest.
+425 silly tarball no local data for engine.io@https://registry.npmjs.org/engine.io/-/engine.io-6.6.6.tgz. Extracting by manifest.
+426 silly tarball no local data for di@https://registry.npmjs.org/di/-/di-0.0.1.tgz. Extracting by manifest.
+427 silly tarball no local data for dom-serialize@https://registry.npmjs.org/dom-serialize/-/dom-serialize-2.2.1.tgz. Extracting by manifest.
+428 silly tarball no local data for date-format@https://registry.npmjs.org/date-format/-/date-format-4.0.14.tgz. Extracting by manifest.
+429 silly tarball no local data for cssesc@https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz. Extracting by manifest.
+430 silly tarball no local data for custom-event@https://registry.npmjs.org/custom-event/-/custom-event-1.0.1.tgz. Extracting by manifest.
+431 silly tarball no local data for baseline-browser-mapping@https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.9.tgz. Extracting by manifest.
+432 silly tarball no local data for base64id@https://registry.npmjs.org/base64id/-/base64id-2.0.0.tgz. Extracting by manifest.
+433 silly tarball no local data for connect@https://registry.npmjs.org/connect/-/connect-3.7.0.tgz. Extracting by manifest.
+434 silly tarball no local data for autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz. Extracting by manifest.
+435 silly tarball no local data for chart.js@https://registry.npmjs.org/chart.js/-/chart.js-4.5.1.tgz. Extracting by manifest.
+436 silly tarball no local data for ansi-html-community@https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz. Extracting by manifest.
+437 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+438 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-5.0.0.tgz. Extracting by manifest.
+439 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-5.0.0.tgz. Extracting by manifest.
+440 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-5.0.0.tgz. Extracting by manifest.
+441 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+442 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+443 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+444 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-10.5.0.tgz. Extracting by manifest.
+445 silly tarball no local data for resolve@https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz. Extracting by manifest.
+446 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+447 silly tarball no local data for browserslist@https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz. Extracting by manifest.
+448 silly tarball no local data for mkdirp@https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz. Extracting by manifest.
+449 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+450 silly tarball no local data for acorn@https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz. Extracting by manifest.
+451 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-2.0.2.tgz. Extracting by manifest.
+452 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-7.5.10.tgz. Extracting by manifest.
+453 silly tarball no local data for glob@https://registry.npmjs.org/glob/-/glob-10.5.0.tgz. Extracting by manifest.
+454 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+455 silly tarball no local data for @jsonjoy.com/util@https://registry.npmjs.org/@jsonjoy.com/util/-/util-17.67.0.tgz. Extracting by manifest.
+456 silly tarball no local data for @jsonjoy.com/json-pack@https://registry.npmjs.org/@jsonjoy.com/json-pack/-/json-pack-17.67.0.tgz. Extracting by manifest.
+457 silly tarball no local data for @jsonjoy.com/codegen@https://registry.npmjs.org/@jsonjoy.com/codegen/-/codegen-17.67.0.tgz. Extracting by manifest.
+458 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+459 silly tarball no local data for @jsonjoy.com/json-pointer@https://registry.npmjs.org/@jsonjoy.com/json-pointer/-/json-pointer-17.67.0.tgz. Extracting by manifest.
+460 silly tarball no local data for @jsonjoy.com/base64@https://registry.npmjs.org/@jsonjoy.com/base64/-/base64-17.67.0.tgz. Extracting by manifest.
+461 silly tarball no local data for rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz. Extracting by manifest.
+462 silly tarball no local data for rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz. Extracting by manifest.
+463 silly tarball no local data for rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz. Extracting by manifest.
+464 silly tarball no local data for @babel/core@https://registry.npmjs.org/@babel/core/-/core-7.26.9.tgz. Extracting by manifest.
+465 silly tarball no local data for rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz. Extracting by manifest.
+466 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+467 silly tarball no local data for rxjs@https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz. Extracting by manifest.
+468 silly tarball no local data for convert-source-map@https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz. Extracting by manifest.
+469 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+470 silly tarball no local data for watchpack@https://registry.npmjs.org/watchpack/-/watchpack-2.5.1.tgz. Extracting by manifest.
+471 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+472 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz. Extracting by manifest.
+473 silly tarball no local data for http-proxy-middleware@https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-2.0.9.tgz. Extracting by manifest.
+474 silly tarball no local data for json-parse-even-better-errors@https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz. Extracting by manifest.
+475 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+476 silly tarball no local data for which@https://registry.npmjs.org/which/-/which-5.0.0.tgz. Extracting by manifest.
+477 silly tarball no local data for postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.8.tgz. Extracting by manifest.
+478 silly tarball no local data for yallist@https://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz. Extracting by manifest.
+479 silly tarball no local data for tar@https://registry.npmjs.org/tar/-/tar-7.5.12.tgz. Extracting by manifest.
+480 silly tarball no local data for iconv-lite@https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz. Extracting by manifest.
+481 silly tarball no local data for isexe@https://registry.npmjs.org/isexe/-/isexe-3.1.5.tgz. Extracting by manifest.
+482 silly tarball no local data for chownr@https://registry.npmjs.org/chownr/-/chownr-3.0.0.tgz. Extracting by manifest.
+483 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+484 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-5.7.2.tgz. Extracting by manifest.
+485 silly tarball no local data for jasmine-core@https://registry.npmjs.org/jasmine-core/-/jasmine-core-4.6.1.tgz. Extracting by manifest.
+486 silly tarball no local data for mime@https://registry.npmjs.org/mime/-/mime-1.6.0.tgz. Extracting by manifest.
+487 silly tarball no local data for semver@https://registry.npmjs.org/semver/-/semver-6.3.1.tgz. Extracting by manifest.
+488 silly tarball no local data for make-dir@https://registry.npmjs.org/make-dir/-/make-dir-2.1.0.tgz. Extracting by manifest.
+489 silly tarball no local data for istanbul-lib-instrument@https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-5.2.1.tgz. Extracting by manifest.
+490 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz. Extracting by manifest.
+491 silly tarball no local data for @angular/cli@https://registry.npmjs.org/@angular/cli/-/cli-19.2.22.tgz. Extracting by manifest.
+492 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz. Extracting by manifest.
+493 silly tarball no local data for strip-ansi@https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz. Extracting by manifest.
+494 silly tarball no local data for source-map@https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz. Extracting by manifest.
+495 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+496 silly tarball no local data for string-width@https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz. Extracting by manifest.
+497 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+498 silly tarball no local data for emoji-regex@https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz. Extracting by manifest.
+499 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+500 silly tarball no local data for is-fullwidth-code-point@https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz. Extracting by manifest.
+501 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz. Extracting by manifest.
+502 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz. Extracting by manifest.
+503 silly tarball no local data for on-finished@https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz. Extracting by manifest.
+504 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+505 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz. Extracting by manifest.
+506 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+507 silly tarball no local data for ansi-regex@https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz. Extracting by manifest.
+508 silly tarball no local data for ms@https://registry.npmjs.org/ms/-/ms-2.0.0.tgz. Extracting by manifest.
+509 silly tarball no local data for debug@https://registry.npmjs.org/debug/-/debug-2.6.9.tgz. Extracting by manifest.
+510 http fetch GET 200 https://registry.npmjs.org/multicast-dns/-/multicast-dns-7.2.5.tgz 40767ms (cache miss)
+511 http fetch GET 200 https://registry.npmjs.org/karma-jasmine/-/karma-jasmine-5.1.0.tgz 40668ms (cache miss)
+512 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.6.tgz 40729ms (cache miss)
+513 http fetch GET 200 https://registry.npmjs.org/memfs/-/memfs-4.56.11.tgz 40831ms (cache miss)
+514 http fetch GET 200 https://registry.npmjs.org/socket.io-adapter/-/socket.io-adapter-2.5.6.tgz 41278ms (cache miss)
+515 http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-1.4.1.tgz 41235ms (cache miss)
+516 http fetch GET 200 https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz 40959ms (cache miss)
+517 http fetch GET 200 https://registry.npmjs.org/karma-jasmine-html-reporter/-/karma-jasmine-html-reporter-2.1.0.tgz 41061ms (cache miss)
+518 http fetch GET 200 https://registry.npmjs.org/launch-editor/-/launch-editor-2.13.1.tgz 41078ms (cache miss)
+519 http fetch GET 200 https://registry.npmjs.org/jsesc/-/jsesc-3.1.0.tgz 40952ms (cache miss)
+520 http fetch GET 200 https://registry.npmjs.org/which/-/which-1.3.1.tgz 41990ms (cache miss)
+521 http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-3.0.2.tgz 41588ms (cache miss)
+522 http fetch GET 200 https://registry.npmjs.org/node-gyp-build-optional-packages/-/node-gyp-build-optional-packages-5.2.2.tgz 41545ms (cache miss)
+523 http fetch GET 200 https://registry.npmjs.org/nopt/-/nopt-8.1.0.tgz 41556ms (cache miss)
+524 http fetch GET 200 https://registry.npmjs.org/is-inside-container/-/is-inside-container-1.0.0.tgz 41269ms (cache miss)
+525 http fetch GET 200 https://registry.npmjs.org/karma-chrome-launcher/-/karma-chrome-launcher-3.2.0.tgz 41354ms (cache miss)
+526 http fetch GET 200 https://registry.npmjs.org/is-docker/-/is-docker-3.0.0.tgz 41216ms (cache miss)
+527 http fetch GET 200 https://registry.npmjs.org/di/-/di-0.0.1.tgz 40775ms (cache miss)
+528 http fetch GET 200 https://registry.npmjs.org/fetch-cookie/-/fetch-cookie-2.2.0.tgz 41105ms (cache miss)
+529 http fetch GET 200 https://registry.npmjs.org/extend/-/extend-3.0.2.tgz 41063ms (cache miss)
+530 http fetch GET 200 https://registry.npmjs.org/flat/-/flat-5.0.2.tgz 41043ms (cache miss)
+531 http fetch GET 200 https://registry.npmjs.org/base64id/-/base64id-2.0.0.tgz 40709ms (cache miss)
+532 http fetch GET 200 https://registry.npmjs.org/tree-kill/-/tree-kill-1.2.2.tgz 42054ms (cache miss)
+533 http fetch GET 200 https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.2.tgz 41453ms (cache miss)
+534 http fetch GET 200 https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz 41254ms (cache miss)
+535 http fetch GET 200 https://registry.npmjs.org/custom-event/-/custom-event-1.0.1.tgz 41027ms (cache miss)
+536 http fetch GET 200 https://registry.npmjs.org/errno/-/errno-0.1.8.tgz 41335ms (cache miss)
+537 http fetch GET 200 https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz 41041ms (cache miss)
+538 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/codegen/-/codegen-17.67.0.tgz 40719ms (cache miss)
+539 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/fs-print/-/fs-print-4.56.11.tgz 43009ms (cache miss)
+540 http fetch GET 200 https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz 42547ms (cache miss)
+541 warn deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+542 http fetch GET 200 https://registry.npmjs.org/isbinaryfile/-/isbinaryfile-4.0.10.tgz 41886ms (cache miss)
+543 http fetch GET 200 https://registry.npmjs.org/date-format/-/date-format-4.0.14.tgz 41416ms (cache miss)
+544 http fetch GET 200 https://registry.npmjs.org/which/-/which-5.0.0.tgz 41338ms (cache miss)
+545 http fetch GET 200 https://registry.npmjs.org/ansi-html-community/-/ansi-html-community-0.0.8.tgz 41498ms (cache miss)
+546 http fetch GET 200 https://registry.npmjs.org/which/-/which-2.0.2.tgz 41196ms (cache miss)
+547 http fetch GET 200 https://registry.npmjs.org/which/-/which-5.0.0.tgz 41653ms (cache miss)
+548 http fetch GET 200 https://registry.npmjs.org/which/-/which-5.0.0.tgz 41650ms (cache miss)
+549 http fetch GET 200 https://registry.npmjs.org/which/-/which-5.0.0.tgz 41106ms (cache miss)
+550 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz 41183ms (cache miss)
+551 http fetch GET 200 https://registry.npmjs.org/@npmcli/installed-package-contents/-/installed-package-contents-3.0.0.tgz 43622ms (cache miss)
+552 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/base64/-/base64-17.67.0.tgz 41531ms (cache miss)
+553 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 41445ms (cache miss)
+554 http fetch GET 200 https://registry.npmjs.org/convert-source-map/-/convert-source-map-2.0.0.tgz 41458ms (cache miss)
+555 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-7.0.4.tgz 41164ms (cache miss)
+556 http fetch GET 200 https://registry.npmjs.org/msgpackr-extract/-/msgpackr-extract-3.0.3.tgz 43089ms (cache miss)
+557 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 41760ms (cache miss)
+558 http fetch GET 200 https://registry.npmjs.org/@types/jasmine/-/jasmine-5.1.15.tgz 44275ms (cache miss)
+559 http fetch GET 200 https://registry.npmjs.org/regjsparser/-/regjsparser-0.13.0.tgz 43454ms (cache miss)
+560 http fetch GET 200 https://registry.npmjs.org/chownr/-/chownr-3.0.0.tgz 41872ms (cache miss)
+561 http fetch GET 200 https://registry.npmjs.org/emoji-regex/-/emoji-regex-8.0.0.tgz 41679ms (cache miss)
+562 http fetch GET 200 https://registry.npmjs.org/update-browserslist-db/-/update-browserslist-db-1.2.3.tgz 43755ms (cache miss)
+563 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 41905ms (cache miss)
+564 http fetch GET 200 https://registry.npmjs.org/make-dir/-/make-dir-2.1.0.tgz 42084ms (cache miss)
+565 http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-6.0.1.tgz 42030ms (cache miss)
+566 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 42006ms (cache miss)
+567 http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz 42199ms (cache miss)
+568 http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-4.2.3.tgz 42283ms (cache miss)
+569 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 42174ms (cache miss)
+570 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-3.0.0.tgz 42248ms (cache miss)
+571 http fetch GET 200 https://registry.npmjs.org/connect/-/connect-3.7.0.tgz 43330ms (cache miss)
+572 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 42477ms (cache miss)
+573 http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz 42404ms (cache miss)
+574 http fetch GET 200 https://registry.npmjs.org/void-elements/-/void-elements-2.0.1.tgz 44688ms (cache miss)
+575 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 43417ms (cache miss)
+576 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 43336ms (cache miss)
+577 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 43418ms (cache miss)
+578 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 43467ms (cache miss)
+579 http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 42028ms (cache miss)
+580 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 43263ms (cache miss)
+581 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 43319ms (cache miss)
+582 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 43427ms (cache miss)
+583 http fetch GET 200 https://registry.npmjs.org/dom-serialize/-/dom-serialize-2.2.1.tgz 44217ms (cache miss)
+584 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 43754ms (cache miss)
+585 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-5.7.2.tgz 44834ms (cache miss)
+586 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-6.3.1.tgz 45074ms (cache miss)
+587 http fetch GET 200 https://registry.npmjs.org/esbuild/-/esbuild-0.25.4.tgz 46503ms (cache miss)
+588 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-2.6.0.tgz 47629ms (cache miss)
+589 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 46767ms (cache miss)
+590 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 46653ms (cache miss)
+591 http fetch GET 200 https://registry.npmjs.org/@socket.io/component-emitter/-/component-emitter-3.1.2.tgz 49110ms (cache miss)
+592 http fetch GET 200 https://registry.npmjs.org/browserslist/-/browserslist-4.28.1.tgz 47213ms (cache miss)
+593 http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 46817ms (cache miss)
+594 http fetch GET 200 https://registry.npmjs.org/@kurkle/color/-/color-0.3.4.tgz 49287ms (cache miss)
+595 http fetch GET 200 https://registry.npmjs.org/baseline-browser-mapping/-/baseline-browser-mapping-2.10.9.tgz 47615ms (cache miss)
+596 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 46864ms (cache miss)
+597 http fetch GET 200 https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.41.tgz 48949ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/qjobs/-/qjobs-1.2.0.tgz 48822ms (cache miss)
+599 http fetch GET 200 https://registry.npmjs.org/streamroller/-/streamroller-3.1.5.tgz 49322ms (cache miss)
+600 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 47834ms (cache miss)
+601 http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz 48260ms (cache miss)
+602 http fetch GET 200 https://registry.npmjs.org/istanbul-lib-instrument/-/istanbul-lib-instrument-5.2.1.tgz 48116ms (cache miss)
+603 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 48014ms (cache miss)
+604 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-4.0.2.tgz 50225ms (cache miss)
+605 http fetch GET 200 https://registry.npmjs.org/eventsource/-/eventsource-2.0.2.tgz 51060ms (cache miss)
+606 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-20.2.9.tgz 50005ms (cache miss)
+607 http fetch GET 200 https://registry.npmjs.org/ent/-/ent-2.2.2.tgz 51523ms (cache miss)
+608 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 51578ms (cache miss)
+609 http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 50688ms (cache miss)
+610 http fetch GET 200 https://registry.npmjs.org/acorn/-/acorn-8.16.0.tgz 52575ms (cache miss)
+611 http fetch GET 200 https://registry.npmjs.org/yallist/-/yallist-5.0.0.tgz 53209ms (cache miss)
+612 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-7.5.10.tgz 53483ms (cache miss)
+613 http fetch GET 200 https://registry.npmjs.org/watchpack/-/watchpack-2.5.1.tgz 53774ms (cache miss)
+614 http fetch GET 200 https://registry.npmjs.org/tapable/-/tapable-2.3.0.tgz 56094ms (cache miss)
+615 http fetch GET 200 https://registry.npmjs.org/image-size/-/image-size-0.5.5.tgz 55628ms (cache miss)
+616 http fetch GET 200 https://registry.npmjs.org/pacote/-/pacote-20.0.0.tgz 56667ms (cache miss)
+617 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.18.3.tgz 57741ms (cache miss)
+618 http fetch GET 200 https://registry.npmjs.org/json5/-/json5-2.2.3.tgz 56995ms (cache miss)
+619 http fetch GET 200 https://registry.npmjs.org/nanoid/-/nanoid-3.3.11.tgz 57239ms (cache miss)
+620 http fetch GET 200 https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz 57998ms (cache miss)
+621 http fetch GET 200 https://registry.npmjs.org/@angular-devkit/build-webpack/-/build-webpack-0.1902.22.tgz 59207ms (cache miss)
+622 http fetch GET 200 https://registry.npmjs.org/karma-coverage/-/karma-coverage-2.2.1.tgz 58483ms (cache miss)
+623 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/fs-snapshot/-/fs-snapshot-4.56.11.tgz 60040ms (cache miss)
+624 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 59346ms (cache miss)
+625 http fetch GET 200 https://registry.npmjs.org/socket.io-parser/-/socket.io-parser-4.2.6.tgz 61329ms (cache miss)
+626 http fetch GET 200 https://registry.npmjs.org/source-map/-/source-map-0.6.1.tgz 59621ms (cache miss)
+627 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/fs-node-to-fsa/-/fs-node-to-fsa-4.56.11.tgz 62135ms (cache miss)
+628 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/fs-node-builtins/-/fs-node-builtins-4.56.11.tgz 62500ms (cache miss)
+629 http fetch GET 200 https://registry.npmjs.org/http-proxy-middleware/-/http-proxy-middleware-2.0.9.tgz 61294ms (cache miss)
+630 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.29.2.tgz 63519ms (cache miss)
+631 http fetch GET 200 https://registry.npmjs.org/jasmine-core/-/jasmine-core-5.6.0.tgz 62586ms (cache miss)
+632 http fetch GET 200 https://registry.npmjs.org/jiti/-/jiti-1.21.7.tgz 62795ms (cache miss)
+633 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/fs-fsa/-/fs-fsa-4.56.11.tgz 64322ms (cache miss)
+634 http fetch GET 200 https://registry.npmjs.org/jasmine-core/-/jasmine-core-4.6.1.tgz 62378ms (cache miss)
+635 http fetch GET 200 https://registry.npmjs.org/log4js/-/log4js-6.9.1.tgz 64357ms (cache miss)
+636 http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz 63367ms (cache miss)
+637 http fetch GET 200 https://registry.npmjs.org/webpack-dev-server/-/webpack-dev-server-5.2.2.tgz 65774ms (cache miss)
+638 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.1.tgz 65164ms (cache miss)
+639 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/fs-core/-/fs-core-4.56.11.tgz 66242ms (cache miss)
+640 http fetch GET 200 https://registry.npmjs.org/engine.io-parser/-/engine.io-parser-5.2.3.tgz 65377ms (cache miss)
+641 http fetch GET 200 https://registry.npmjs.org/engine.io/-/engine.io-6.6.6.tgz 65467ms (cache miss)
+642 http fetch GET 200 https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz 65918ms (cache miss)
+643 http fetch GET 200 https://registry.npmjs.org/socket.io/-/socket.io-4.8.3.tgz 67542ms (cache miss)
+644 http fetch GET 200 https://registry.npmjs.org/semver/-/semver-7.7.1.tgz 67943ms (cache miss)
+645 http fetch GET 200 https://registry.npmjs.org/isexe/-/isexe-3.1.5.tgz 67361ms (cache miss)
+646 http fetch GET 200 https://registry.npmjs.org/postcss/-/postcss-8.5.8.tgz 68113ms (cache miss)
+647 http fetch GET 200 https://registry.npmjs.org/@ngtools/webpack/-/webpack-19.2.22.tgz 70776ms (cache miss)
+648 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/json-pointer/-/json-pointer-17.67.0.tgz 69547ms (cache miss)
+649 http fetch GET 200 https://registry.npmjs.org/rollup/-/rollup-4.59.0.tgz 71612ms (cache miss)
+650 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/fs-node-utils/-/fs-node-utils-4.56.11.tgz 72321ms (cache miss)
+651 http fetch GET 200 https://registry.npmjs.org/needle/-/needle-3.5.0.tgz 71520ms (cache miss)
+652 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/fs-node/-/fs-node-4.56.11.tgz 72555ms (cache miss)
+653 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-16.2.0.tgz 70296ms (cache miss)
+654 http fetch GET 200 https://registry.npmjs.org/vite/-/vite-6.4.1.tgz 72613ms (cache miss)
+655 http fetch GET 200 https://registry.npmjs.org/terser/-/terser-5.39.0.tgz 72702ms (cache miss)
+656 http fetch GET 200 https://registry.npmjs.org/node-forge/-/node-forge-1.3.3.tgz 73494ms (cache miss)
+657 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-8.3.2.tgz 74212ms (cache miss)
+658 http fetch GET 200 https://registry.npmjs.org/@angular-devkit/architect/-/architect-0.1902.22.tgz 75049ms (cache miss)
+659 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-10.5.0.tgz 74718ms (cache miss)
+660 warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+661 http fetch GET 200 https://registry.npmjs.org/glob/-/glob-10.5.0.tgz 75364ms (cache miss)
+662 warn deprecated glob@10.5.0: Old versions of glob are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exorbitant rates) by contacting i@izs.me
+663 http fetch GET 200 https://registry.npmjs.org/karma/-/karma-6.4.4.tgz 77493ms (cache miss)
+664 http fetch GET 200 https://registry.npmjs.org/sass/-/sass-1.85.0.tgz 78996ms (cache miss)
+665 http fetch GET 200 https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz 78253ms (cache miss)
+666 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.10.tgz 84750ms (cache miss)
+667 http fetch GET 200 https://registry.npmjs.org/resolve/-/resolve-1.22.11.tgz 84153ms (cache miss)
+668 http fetch GET 200 https://registry.npmjs.org/esbuild-wasm/-/esbuild-wasm-0.25.4.tgz 88782ms (cache miss)
+669 http fetch GET 200 https://registry.npmjs.org/@angular-devkit/schematics/-/schematics-19.2.22.tgz 90027ms (cache miss)
+670 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/util/-/util-17.67.0.tgz 88837ms (cache miss)
+671 http fetch GET 200 https://registry.npmjs.org/@angular-devkit/core/-/core-19.2.22.tgz 91201ms (cache miss)
+672 http fetch GET 200 https://registry.npmjs.org/node-gyp/-/node-gyp-11.5.0.tgz 91737ms (cache miss)
+673 http fetch GET 200 https://registry.npmjs.org/@babel/core/-/core-7.26.9.tgz 90860ms (cache miss)
+674 http fetch GET 200 https://registry.npmjs.org/ng2-charts/-/ng2-charts-5.0.4.tgz 95075ms (cache miss)
+675 http fetch GET 200 https://registry.npmjs.org/chart.js/-/chart.js-4.5.1.tgz 95046ms (cache miss)
+676 http fetch GET 200 https://registry.npmjs.org/@angular/cli/-/cli-19.2.22.tgz 95005ms (cache miss)
+677 http fetch GET 200 https://registry.npmjs.org/lmdb/-/lmdb-3.2.6.tgz 96964ms (cache miss)
+678 http fetch GET 200 https://registry.npmjs.org/@microsoft/signalr/-/signalr-10.0.0.tgz 103880ms (cache miss)
+679 http fetch GET 200 https://registry.npmjs.org/tar/-/tar-7.5.12.tgz 105306ms (cache miss)
+680 http fetch GET 200 https://registry.npmjs.org/typescript/-/typescript-5.7.3.tgz 110156ms (cache miss)
+681 http fetch GET 200 https://registry.npmjs.org/@schematics/angular/-/angular-19.2.22.tgz 114501ms (cache miss)
+682 http fetch GET 200 https://registry.npmjs.org/@angular-devkit/build-angular/-/build-angular-19.2.22.tgz 115126ms (cache miss)
+683 http fetch GET 200 https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.23.tgz 115113ms (cache miss)
+684 http fetch GET 200 https://registry.npmjs.org/less/-/less-4.2.2.tgz 121180ms (cache miss)
+685 http fetch GET 200 https://registry.npmjs.org/@angular/build/-/build-19.2.22.tgz 124952ms (cache miss)
+686 http fetch GET 200 https://registry.npmjs.org/@angular/cdk/-/cdk-19.2.19.tgz 125272ms (cache miss)
+687 http fetch GET 200 https://registry.npmjs.org/@angular/compiler-cli/-/compiler-cli-19.2.20.tgz 129937ms (cache miss)
+688 http fetch GET 200 https://registry.npmjs.org/@jsonjoy.com/json-pack/-/json-pack-17.67.0.tgz 130749ms (cache miss)
+689 http fetch GET 200 https://registry.npmjs.org/webpack/-/webpack-5.105.0.tgz 138225ms (cache miss)
+690 http fetch GET 200 https://registry.npmjs.org/@angular/material/-/material-19.2.19.tgz 145294ms (cache miss)
+691 http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 203847ms (cache miss)
+692 http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 204208ms (cache miss)
+693 http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 204229ms (cache miss)
+694 http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 204306ms (cache miss)
+695 http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-7.8.1.tgz 204295ms (cache miss)
+696 info run lmdb@3.2.6 install node_modules/lmdb node-gyp-build-optional-packages
+697 info run msgpackr-extract@3.0.3 install node_modules/msgpackr-extract node-gyp-build-optional-packages
+698 info run msgpackr-extract@3.0.3 install { code: 0, signal: null }
+699 info run lmdb@3.2.6 install { code: 0, signal: null }
+700 info run esbuild@0.25.4 postinstall node_modules/esbuild node install.js
+701 info run esbuild@0.25.4 postinstall { code: 0, signal: null }
+702 silly CHANGE node_modules/@babel/preset-env/node_modules/semver
+703 silly CHANGE node_modules/@npmcli/run-script/node_modules/which
+704 silly CHANGE node_modules/@npmcli/promise-spawn/node_modules/which
+705 silly CHANGE node_modules/@npmcli/git/node_modules/which
+706 silly CHANGE node_modules/@npmcli/package-json/node_modules/glob
+707 silly CHANGE node_modules/@babel/plugin-transform-runtime/node_modules/semver
+708 silly CHANGE node_modules/@babel/helper-define-polyfill-provider/node_modules/resolve
+709 silly CHANGE node_modules/@babel/helper-create-regexp-features-plugin/node_modules/semver
+710 silly CHANGE node_modules/@babel/helper-create-class-features-plugin/node_modules/semver
+711 silly CHANGE node_modules/@babel/helper-compilation-targets/node_modules/semver
+712 silly CHANGE node_modules/@babel/core/node_modules/semver
+713 silly CHANGE node_modules/tar/node_modules/mkdirp
+714 silly CHANGE node_modules/send/node_modules/mime
+715 silly CHANGE node_modules/cross-spawn/node_modules/which
+716 silly CHANGE node_modules/cacache/node_modules/glob
+717 silly CHANGE node_modules/babel-plugin-polyfill-corejs2/node_modules/semver
+718 silly CHANGE node_modules/@types/jasmine
+719 silly CHANGE node_modules/@socket.io/component-emitter
+720 silly CHANGE node_modules/@schematics/angular
+721 silly CHANGE node_modules/@npmcli/installed-package-contents
+722 silly CHANGE node_modules/@ngtools/webpack
+723 silly CHANGE node_modules/@microsoft/signalr
+724 silly CHANGE node_modules/@microsoft/signalr/node_modules/ws
+725 silly CHANGE node_modules/@kurkle/color
+726 silly CHANGE node_modules/@jsonjoy.com/fs-print
+727 silly CHANGE node_modules/@jsonjoy.com/fs-snapshot
+728 silly CHANGE node_modules/@jsonjoy.com/fs-snapshot/node_modules/@jsonjoy.com/util
+729 silly CHANGE node_modules/@jsonjoy.com/fs-snapshot/node_modules/@jsonjoy.com/json-pointer
+730 silly CHANGE node_modules/@jsonjoy.com/fs-snapshot/node_modules/@jsonjoy.com/json-pack
+731 silly CHANGE node_modules/@jsonjoy.com/fs-snapshot/node_modules/@jsonjoy.com/codegen
+732 silly CHANGE node_modules/@jsonjoy.com/fs-snapshot/node_modules/@jsonjoy.com/base64
+733 silly CHANGE node_modules/@jsonjoy.com/fs-node-utils
+734 silly CHANGE node_modules/@jsonjoy.com/fs-node-to-fsa
+735 silly CHANGE node_modules/@jsonjoy.com/fs-node-builtins
+736 silly CHANGE node_modules/@jsonjoy.com/fs-node
+737 silly CHANGE node_modules/@jsonjoy.com/fs-fsa
+738 silly CHANGE node_modules/@jsonjoy.com/fs-core
+739 silly CHANGE node_modules/@colors/colors
+740 silly CHANGE node_modules/@babel/parser
+741 silly CHANGE node_modules/@angular-devkit/schematics
+742 silly CHANGE node_modules/@angular-devkit/schematics/node_modules/rxjs
+743 silly CHANGE node_modules/@angular-devkit/core
+744 silly CHANGE node_modules/@angular-devkit/core/node_modules/rxjs
+745 silly CHANGE node_modules/@angular-devkit/build-webpack
+746 silly CHANGE node_modules/@angular-devkit/build-webpack/node_modules/rxjs
+747 silly CHANGE node_modules/@angular-devkit/build-angular
+748 silly CHANGE node_modules/@angular-devkit/build-angular/node_modules/rxjs
+749 silly CHANGE node_modules/@angular-devkit/architect
+750 silly CHANGE node_modules/@angular-devkit/architect/node_modules/rxjs
+751 silly CHANGE node_modules/@angular/material
+752 silly CHANGE node_modules/@angular/compiler-cli
+753 silly CHANGE node_modules/@angular/compiler-cli/node_modules/@babel/core
+754 silly CHANGE node_modules/@angular/compiler-cli/node_modules/@babel/core/node_modules/semver
+755 silly CHANGE node_modules/@angular/compiler-cli/node_modules/@babel/core/node_modules/convert-source-map
+756 silly CHANGE node_modules/@angular/cli
+757 silly CHANGE node_modules/@angular/cdk
+758 silly CHANGE node_modules/@angular/build
+759 silly CHANGE node_modules/ws
+760 silly CHANGE node_modules/which
+761 silly CHANGE node_modules/webpack-dev-server
+762 silly CHANGE node_modules/webpack-dev-server/node_modules/readdirp
+763 silly CHANGE node_modules/webpack-dev-server/node_modules/picomatch
+764 silly CHANGE node_modules/webpack-dev-server/node_modules/http-proxy-middleware
+765 silly CHANGE node_modules/webpack-dev-server/node_modules/glob-parent
+766 silly CHANGE node_modules/webpack-dev-server/node_modules/chokidar
+767 silly CHANGE node_modules/webpack
+768 silly CHANGE node_modules/webpack/node_modules/watchpack
+769 silly CHANGE node_modules/webpack/node_modules/json-parse-even-better-errors
+770 silly CHANGE node_modules/void-elements
+771 silly CHANGE node_modules/vite
+772 silly CHANGE node_modules/vite/node_modules/postcss
+773 silly CHANGE node_modules/uuid
+774 silly CHANGE node_modules/update-browserslist-db
+775 silly CHANGE node_modules/universalify
+776 silly CHANGE node_modules/ua-parser-js
+777 silly CHANGE node_modules/typescript
+778 silly CHANGE node_modules/tree-kill
+779 silly CHANGE node_modules/terser
+780 silly CHANGE node_modules/tapable
+781 silly CHANGE node_modules/streamroller
+782 silly CHANGE node_modules/socket.io-parser
+783 silly CHANGE node_modules/socket.io-adapter
+784 silly CHANGE node_modules/socket.io
+785 silly CHANGE node_modules/semver
+786 silly CHANGE node_modules/sass
+787 silly CHANGE node_modules/rollup
+788 silly CHANGE node_modules/rimraf
+789 silly CHANGE node_modules/resolve
+790 silly CHANGE node_modules/regjsparser
+791 silly CHANGE node_modules/qjobs
+792 silly CHANGE node_modules/punycode
+793 silly CHANGE node_modules/picomatch
+794 silly CHANGE node_modules/pacote
+795 silly CHANGE node_modules/nopt
+796 silly CHANGE node_modules/node-gyp-build-optional-packages
+797 silly CHANGE node_modules/node-gyp
+798 silly CHANGE node_modules/node-gyp/node_modules/yallist
+799 silly CHANGE node_modules/node-gyp/node_modules/which
+800 silly CHANGE node_modules/node-gyp/node_modules/tar
+801 silly CHANGE node_modules/node-gyp/node_modules/isexe
+802 silly CHANGE node_modules/node-gyp/node_modules/chownr
+803 silly CHANGE node_modules/node-forge
+804 silly CHANGE node_modules/ng2-charts
+805 silly CHANGE node_modules/needle
+806 silly CHANGE node_modules/needle/node_modules/iconv-lite
+807 silly CHANGE node_modules/nanoid
+808 silly CHANGE node_modules/multicast-dns
+809 silly CHANGE node_modules/msgpackr-extract
+810 silly CHANGE node_modules/mkdirp
+811 silly CHANGE node_modules/mime
+812 silly CHANGE node_modules/memfs
+813 silly CHANGE node_modules/log4js
+814 silly CHANGE node_modules/lodash-es
+815 silly CHANGE node_modules/lmdb
+816 silly CHANGE node_modules/less
+817 silly CHANGE node_modules/less/node_modules/mime
+818 silly CHANGE node_modules/less/node_modules/source-map
+819 silly CHANGE node_modules/less/node_modules/semver
+820 silly CHANGE node_modules/less/node_modules/make-dir
+821 silly CHANGE node_modules/launch-editor
+822 silly CHANGE node_modules/karma-jasmine-html-reporter
+823 silly CHANGE node_modules/karma-jasmine
+824 silly CHANGE node_modules/karma-jasmine/node_modules/jasmine-core
+825 silly CHANGE node_modules/karma-coverage
+826 silly CHANGE node_modules/karma-coverage/node_modules/semver
+827 silly CHANGE node_modules/karma-coverage/node_modules/istanbul-lib-instrument
+828 silly CHANGE node_modules/karma-chrome-launcher
+829 silly CHANGE node_modules/karma
+830 silly CHANGE node_modules/karma/node_modules/yargs-parser
+831 silly CHANGE node_modules/karma/node_modules/yargs
+832 silly CHANGE node_modules/karma/node_modules/wrap-ansi
+833 silly CHANGE node_modules/karma/node_modules/strip-ansi
+834 silly CHANGE node_modules/karma/node_modules/string-width
+835 silly CHANGE node_modules/karma/node_modules/readdirp
+836 silly CHANGE node_modules/karma/node_modules/source-map
+837 silly CHANGE node_modules/karma/node_modules/picomatch
+838 silly CHANGE node_modules/karma/node_modules/emoji-regex
+839 silly CHANGE node_modules/karma/node_modules/is-fullwidth-code-point
+840 silly CHANGE node_modules/karma/node_modules/glob-parent
+841 silly CHANGE node_modules/karma/node_modules/cliui
+842 silly CHANGE node_modules/karma/node_modules/chokidar
+843 silly CHANGE node_modules/karma/node_modules/ansi-regex
+844 silly CHANGE node_modules/jsonfile
+845 silly CHANGE node_modules/json5
+846 silly CHANGE node_modules/jsesc
+847 silly CHANGE node_modules/js-yaml
+848 silly CHANGE node_modules/jiti
+849 silly CHANGE node_modules/jasmine-core
+850 silly CHANGE node_modules/isbinaryfile
+851 silly CHANGE node_modules/is-inside-container
+852 silly CHANGE node_modules/is-docker
+853 silly CHANGE node_modules/image-size
+854 silly CHANGE node_modules/fs-extra
+855 silly CHANGE node_modules/flat
+856 silly CHANGE node_modules/finalhandler
+857 silly CHANGE node_modules/finalhandler/node_modules/on-finished
+858 silly CHANGE node_modules/finalhandler/node_modules/ms
+859 silly CHANGE node_modules/finalhandler/node_modules/debug
+860 silly CHANGE node_modules/fetch-cookie
+861 silly CHANGE node_modules/extend
+862 silly CHANGE node_modules/eventsource
+863 silly CHANGE node_modules/esbuild
+864 silly CHANGE node_modules/esbuild-wasm
+865 silly CHANGE node_modules/errno
+866 silly CHANGE node_modules/ent
+867 silly CHANGE node_modules/engine.io-parser
+868 silly CHANGE node_modules/engine.io
+869 silly CHANGE node_modules/encodeurl
+870 silly CHANGE node_modules/dom-serialize
+871 silly CHANGE node_modules/di
+872 silly CHANGE node_modules/date-format
+873 silly CHANGE node_modules/custom-event
+874 silly CHANGE node_modules/cssesc
+875 silly CHANGE node_modules/connect
+876 silly CHANGE node_modules/connect/node_modules/debug
+877 silly CHANGE node_modules/connect/node_modules/ms
+878 silly CHANGE node_modules/chart.js
+879 silly CHANGE node_modules/browserslist
+880 silly CHANGE node_modules/baseline-browser-mapping
+881 silly CHANGE node_modules/base64id
+882 silly CHANGE node_modules/autoprefixer
+883 silly CHANGE node_modules/ansi-html-community
+884 silly CHANGE node_modules/acorn
+885 verbose cwd C:\Users\Diya\OneDrive\Desktop\Project\frontend
+886 verbose os Windows_NT 10.0.26200
+887 verbose node v24.14.0
+888 verbose npm  v11.9.0
+889 verbose exit 0
+890 info ok
+891 error A complete log of this run can be found in: C:\Users\Diya\OneDrive\Desktop\Project\frontend\.npm-cache\_logs\2026-04-10T17_06_28_553Z-debug-0.log
