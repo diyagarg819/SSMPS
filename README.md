@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # SSPMS — SmartSkill Performance Monitoring System
 
 A full-stack, production-ready gamified training performance platform.
@@ -171,6 +171,4 @@ See [docs/TEAM.md](docs/TEAM.md) for GitHub workflow and collaboration standards
 | 26+ | 0% |
 | Not submitted | 0% |
 =======
-# SSMPS
-SmartSkill Performance Monitoring System: a full-stack platform where trainers create timed assessments and employees compete for XP, badges and leaderboard ranks. .NET 9 Clean Architecture, Angular 19, PostgreSQL (Neon), SignalR and JWT + 2FA.
->>>>>>> 87c88cad14a11d0de91a1655b4490a7069450778
+
